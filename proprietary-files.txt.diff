@@ -1,0 +1,870 @@
+diff --git a/proprietary-files.txt b/proprietary-files.txt
+index 7976a0b..d64020c 100644
+--- a/proprietary-files.txt
++++ b/proprietary-files.txt
+@@ -1,4 +1,4 @@
+-# All blobs from qssi-user 14 UKQ1.230924.001 1704381945762 release-keys, unless pinned
++# All blobs from qssi-user 14 UKQ1.230924.001 1709139089589 release-keys, unless pinned
+ 
+ # ADSP
+ vendor/bin/adsprpcd
+@@ -684,15 +684,10 @@ odm/lib/android.hardware.camera.provider@2.4.so
+ odm/lib/android.hardware.camera.provider@2.5.so
+ odm/lib/android.hardware.camera.provider@2.6.so
+ odm/lib/android.hardware.camera.provider@2.7.so
+-odm/lib/camera/com.qti.sensor.imx581.so
+-odm/lib/camera/com.qti.sensor.imx709.so
+-odm/lib/camera/com.qti.sensor.imx800.so
++odm/lib/camera/com.qti.sensor.imx355.so
+ odm/lib/camera/com.qti.sensor.imx890.so
++odm/lib/camera/com.qti.sensor.ov02b.so
+ odm/lib/camera/com.qti.sensor.s5k3p9.so
+-odm/lib/camera/components/com.oplus.stats.aec.so
+-odm/lib/camera/components/com.oplus.stats.af.so
+-odm/lib/camera/components/com.oplus.stats.awb.so
+-odm/lib/camera/components/com.oplus.stats.pdlib.so
+ odm/lib/hw/camera.oemlayer.so
+ odm/lib/lib2DSlender.so
+ odm/lib/libaiboost.so
+@@ -713,19 +708,16 @@ odm/lib/libAncHumVideoBase.so
+ odm/lib/libapsexif.so
+ odm/lib/libapsjpeg.so
+ odm/lib/libapspng.so
++odm/lib/libapsultrahdr.so
+ odm/lib/libapsyuv.so
+ odm/lib/libBokehPre.so
+ odm/lib/libc++_shared.so
+-odm/lib/libc2ffmpegutils.so
+ odm/lib/libc2filterplugin.so
+ odm/lib/libcalculator.so
+ odm/lib/libcalculator_htp.so
+ odm/lib/libchrome.so
+-odm/lib/libcodec2_ffmpegdec_audio.so
+-odm/lib/libcodec2_ffmpegdec_video.so
+ odm/lib/libcodec2_hidl@1.0.so
+ odm/lib/libcodec2_hidl_plugin.so
+-odm/lib/libcodec2_oplus.so
+ odm/lib/libcodec2_soft_common.so
+ odm/lib/libcommcenterfw.so
+ odm/lib/libcommcenterutils.so
+@@ -767,6 +759,7 @@ odm/lib/libVDSuperPhotoAPI.so
+ odm/lib/libVDUpScale.so
+ odm/lib/libXDocProcessSDK.so
+ odm/lib/lib_rectify.so
++odm/lib/soundfx/libOplusSpatializer.so
+ odm/lib/soundfx/liboplusupmixeffect.so
+ odm/lib/vendor.oplus.hardware.cameraextension-V1-service-impl.so
+ odm/lib64/android.hardware.camera.common@1.0.so
+@@ -786,18 +779,22 @@ odm/lib64/android.hardware.camera.provider@2.4.so
+ odm/lib64/android.hardware.camera.provider@2.5.so
+ odm/lib64/android.hardware.camera.provider@2.6.so
+ odm/lib64/android.hardware.camera.provider@2.7.so
+-odm/lib64/camera/com.qti.sensor.imx581.so
+-odm/lib64/camera/com.qti.sensor.imx709.so
+-odm/lib64/camera/com.qti.sensor.imx800.so
++odm/lib64/camera/awb_parameter_default.bin
++odm/lib64/camera/awb_parameter_imx355_sunny.bin
++odm/lib64/camera/awb_parameter_qtech_imx890.bin
++odm/lib64/camera/awb_parameter_shine_ov02b.bin
++odm/lib64/camera/awb_parameter_sunny_s5k3p9.bin
++odm/lib64/camera/com.qti.sensor.imx355.so
+ odm/lib64/camera/com.qti.sensor.imx890.so
++odm/lib64/camera/com.qti.sensor.ov02b.so
+ odm/lib64/camera/com.qti.sensor.s5k3p9.so
+-odm/lib64/camera/com.qti.sensormodule.qtech_imx581.bin
+-odm/lib64/camera/com.qti.sensormodule.qtech_imx709.bin
+ odm/lib64/camera/com.qti.sensormodule.qtech_imx890.bin
++odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
++odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
+ odm/lib64/camera/com.qti.sensormodule.sunny_s5k3p9.bin
+-odm/lib64/camera/com.qti.tuned.qtech_imx581.bin
+-odm/lib64/camera/com.qti.tuned.qtech_imx709.bin
++odm/lib64/camera/com.qti.tuned.imx355_sunny.bin
+ odm/lib64/camera/com.qti.tuned.qtech_imx890.bin
++odm/lib64/camera/com.qti.tuned.shine_ov02b.bin
+ odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
+ odm/lib64/camera/components/com.oplus.node.preview.so
+ odm/lib64/camera/components/com.oplus.node.sstabdefer.so
+@@ -805,10 +802,6 @@ odm/lib64/camera/components/com.oplus.node.sstabgme.so
+ odm/lib64/camera/components/com.oplus.node.sstabphoto.so
+ odm/lib64/camera/components/com.oplus.node.sstabrealt.so
+ odm/lib64/camera/components/com.oplus.node.videoenhance.so
+-odm/lib64/camera/components/com.oplus.stats.aec.so
+-odm/lib64/camera/components/com.oplus.stats.af.so
+-odm/lib64/camera/components/com.oplus.stats.awb.so
+-odm/lib64/camera/components/com.oplus.stats.pdlib.so
+ odm/lib64/camera/fdconfigpreview.bin
+ odm/lib64/camera/fdconfigpreviewlite.bin
+ odm/lib64/camera/fdconfigvideo.bin
+@@ -817,15 +810,14 @@ odm/lib64/camera/libaecCustomParam_Cam0.bin
+ odm/lib64/camera/libaecCustomParam_Cam1.bin
+ odm/lib64/camera/libaecCustomParam_Cam2.bin
+ odm/lib64/camera/libaecCustomParam_Cam3.bin
+-odm/lib64/camera/libafCustomParamFrontMain.bin
+-odm/lib64/camera/libafCustomParamMain.bin
+-odm/lib64/camera/libafCustomParamTele.bin
+-odm/lib64/camera/libafCustomParamWide.bin
++odm/lib64/camera/libafCustomParam_Cam0.bin
++odm/lib64/camera/libpdCustomParam_Cam0.bin
+ odm/lib64/camera/revision.txt
+ odm/lib64/hw/camera.oemlayer.so
+ odm/lib64/lib2DSlender.so
+ odm/lib64/libaiboost.so
+ odm/lib64/libaiboost_hexagon.so
++odm/lib64/libaiboost_qnn_external_delegate_te.so
+ odm/lib64/libaiboost_qnn_sr.so
+ odm/lib64/libaiboost_sr.so
+ odm/lib64/libaiboost_te.so
+@@ -853,30 +845,17 @@ odm/lib64/libAncSegMultiSdk.so
+ odm/lib64/libapsexif.so
+ odm/lib64/libapsjpeg.so
+ odm/lib64/libapspng.so
++odm/lib64/libapsultrahdr.so
+ odm/lib64/libapsyuv.so
+ odm/lib64/libBokehPre.so
+ odm/lib64/libc++_shared.so
+-odm/lib64/libc2ffmpegutils.so
+ odm/lib64/libc2filterplugin.so
+ odm/lib64/libcalculator.so
+ odm/lib64/libcalculator_htp.so
+ odm/lib64/libCaptureBokeh.so
+ odm/lib64/libchrome.so
+-odm/lib64/libCipCommon.so
+-odm/lib64/libCipo_awb.so
+-odm/lib64/libCipParameter0.so
+-odm/lib64/libCipParameter1.so
+-odm/lib64/libCipParameter2.so
+-odm/lib64/libCipParameter3.so
+-odm/lib64/libCipParameter4.so
+-odm/lib64/libCipParameter5.so
+-odm/lib64/libCipParameter6.so
+-odm/lib64/libCipParamProcess.so
+-odm/lib64/libcodec2_ffmpegdec_audio.so
+-odm/lib64/libcodec2_ffmpegdec_video.so
+ odm/lib64/libcodec2_hidl@1.0.so
+ odm/lib64/libcodec2_hidl_plugin.so
+-odm/lib64/libcodec2_oplus.so
+ odm/lib64/libcodec2_soft_ac4dec_sp.so
+ odm/lib64/libcodec2_soft_common.so
+ odm/lib64/libcodec2_soft_ddpdec_sp.so
+@@ -913,9 +892,11 @@ odm/lib64/libOPAlgoCamFaceBeautyCap.so
+ odm/lib64/libOPAlgoCamSinglePortrait.so
+ odm/lib64/liboplus-uah-client.so
+ odm/lib64/liboplusblur_capture_api.so
++odm/lib64/libOPLUSMotionDetection.so
+ odm/lib64/libOplusPDCore.so
+ odm/lib64/libOPLUS_SCPortrait.so
+ odm/lib64/liboplus_service.so
++odm/lib64/libOpo_awb.so
+ odm/lib64/liboptical_zoom_dc.so
+ odm/lib64/liboptical_zoom_vs.so
+ odm/lib64/libPerfectColor.so
+@@ -953,6 +934,7 @@ odm/lib64/libwatermark_photo.so
+ odm/lib64/libXDocProcessSDK.so
+ odm/lib64/libyuv2.so
+ odm/lib64/lib_rectify.so
++odm/lib64/soundfx/libOplusSpatializer.so
+ odm/lib64/soundfx/liboplusupmixeffect.so
+ odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
+ system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so
+@@ -1210,8 +1192,10 @@ odm/lib64/libarcsoft_dualcam_refocus_uw.so
+ odm/lib64/libarcsoft_dual_sat.so
+ odm/lib64/libarcsoft_dual_zoomtranslator.so
+ odm/lib64/libarcsoft_eis_wrapper.so
++odm/lib64/libarcsoft_hdr_couple_api.so
+ odm/lib64/libarcsoft_hdr_denoise_api.so
+ odm/lib64/libarcsoft_high_dynamic_range.so
++odm/lib64/libarcsoft_high_dynamic_range_couple.so
+ odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
+ odm/lib64/libarcsoft_high_dynamic_range_v4.so
+ odm/lib64/libarcsoft_lensstaindetection.so
+@@ -1227,9 +1211,9 @@ odm/lib64/libarcsoft_smart_denoise.so
+ odm/lib64/libarcsoft_smart_denoise_v4.so
+ odm/lib64/libarcsoft_triple_sat.so
+ odm/lib64/libarcsoft_triple_zoomtranslator.so
+-odm/lib64/libarcsoft_turbo_fusion_raw_grf.so
+ odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
+ odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
++odm/lib64/libarcsoft_turbo_hdr_grf.so
+ odm/lib64/libarcsoft_turbo_hdr_raw.so
+ odm/lib64/libarcsoft_turbo_hdr_raw_front.so
+ odm/lib64/libarcsoft_turbo_raw.so
+@@ -1242,6 +1226,8 @@ vendor/bin/hw/vendor.qti.camera.provider-service_64
+ vendor/bin/qvrcameratest
+ 
+ # Camera-configs
++odm/etc/camera/aiboost_qnn_htp2.3.1_159494848803313195.bin
++odm/etc/camera/aiboost_qnn_htp2.3.1_767789436570576370.bin
+ odm/etc/camera/AiFace.json
+ odm/etc/camera/anc/fusion_model
+ odm/etc/camera/anc/fusion_model_post
+@@ -1262,6 +1248,7 @@ odm/etc/camera/camera_engmode.xml
+ odm/etc/camera/capture_bokeh_params.json
+ odm/etc/camera/capture_lutportrait_params.json
+ odm/etc/camera/capture_neonportrait_params.json
++odm/etc/camera/cfr_bin/CFR_imx355.bin
+ odm/etc/camera/cfr_bin/CFR_imx581.bin
+ odm/etc/camera/cfr_bin/CFR_imx709.bin
+ odm/etc/camera/cfr_bin/CFR_imx890.bin
+@@ -1269,18 +1256,16 @@ odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
+ odm/etc/camera/config/camera_third_party_feature_config.protobuf
+ odm/etc/camera/config/camera_unit_config
+ odm/etc/camera/config/camera_unit_feature_config.protobuf
+-odm/etc/camera/config/imx581
+-odm/etc/camera/config/imx709
+-odm/etc/camera/config/imx800
++odm/etc/camera/config/imx355
+ odm/etc/camera/config/imx890
+-odm/etc/camera/config/oem_layer_config
+ odm/etc/camera/config/oplus_camera_algo_switch_config
+ odm/etc/camera/config/oplus_camera_aps_config
+ odm/etc/camera/config/oplus_camera_config
+ odm/etc/camera/config/oplus_camera_preview_decision_config.json
+ odm/etc/camera/config/oplus_preview_decision_params.json
++odm/etc/camera/config/ov02b
++odm/etc/camera/config/pickref_params.xml
+ odm/etc/camera/config/s5k3p9
+-odm/etc/camera/config/s5kjn1sq03
+ odm/etc/camera/config/sr_params.xml
+ odm/etc/camera/config/video_beauty_default_config
+ odm/etc/camera/distortionParams.bin
+@@ -1300,7 +1285,7 @@ odm/etc/camera/dng/ToneCurve_imx581_2.txt
+ odm/etc/camera/dng/ToneCurve_imx709_3.txt
+ odm/etc/camera/dng/ToneCurve_imx890_0.txt
+ odm/etc/camera/eis_camera.vcfg
+-odm/etc/camera/facesr_hd_composite_ref_4.1.18_qcom8550_ppl3_ocl.model
++odm/etc/camera/facesr_hd_composite_ff_ref_4.3.17_qcom8550_qnn_segqnn_qnn2.3.5_qualitybin.model
+ odm/etc/camera/fb_default
+ odm/etc/camera/fb_model/000.png
+ odm/etc/camera/fb_model/000_pre.bin
+@@ -1348,11 +1333,14 @@ odm/etc/camera/fb_model/212.png
+ odm/etc/camera/fb_model/212_pre.bin
+ odm/etc/camera/fb_model/213.png
+ odm/etc/camera/fb_model/AIdeblemishSnapMask.bin
++odm/etc/camera/fb_model/AIdeblemishSnapMask.png
+ odm/etc/camera/fb_model/beauty_body.bin
++odm/etc/camera/fb_model/brightLut.bin
+ odm/etc/camera/fb_model/brightLut.png
+ odm/etc/camera/fb_model/DREAM_1_4_1005_838.bin
+ odm/etc/camera/fb_model/DREAM_4_5_354_654.bin
+ odm/etc/camera/fb_model/eyeBright.png
++odm/etc/camera/fb_model/eyesMask.bin
+ odm/etc/camera/fb_model/eyesMask.png
+ odm/etc/camera/fb_model/eyesMaskNew.bin
+ odm/etc/camera/fb_model/eyesMaskNew.png
+@@ -1369,8 +1357,10 @@ odm/etc/camera/fb_model/mouthmask.png
+ odm/etc/camera/fb_model/NEWYEAR_1_4_1005_838.bin
+ odm/etc/camera/fb_model/ORANGE_CRUSH_1_4_1005_838.bin
+ odm/etc/camera/fb_model/PEACH_PINK_1_4_1005_838.bin
++odm/etc/camera/fb_model/preSkinmask137.bin
+ odm/etc/camera/fb_model/preSkinmask137.png
+ odm/etc/camera/fb_model/preSkinmask296.png
++odm/etc/camera/fb_model/redToneLut.bin
+ odm/etc/camera/fb_model/redToneLut.png
+ odm/etc/camera/fb_model/RED_VELVET_1_4_1005_838.bin
+ odm/etc/camera/fb_model/ROSE_NUDE_1_4_1005_838.bin
+@@ -1437,6 +1427,7 @@ odm/etc/camera/fb_model/SNOW_1_4_1005_838.bin
+ odm/etc/camera/fb_model/SNOW_4_4_354_654.bin
+ odm/etc/camera/fb_model/unify_skin_base.bin
+ odm/etc/camera/fb_model/UNIQUE_EYES_1_4_1005_838.bin
++odm/etc/camera/fb_model/whiteToneLut.bin
+ odm/etc/camera/fb_model/whiteToneLut.png
+ odm/etc/camera/fdc_cl.cache
+ odm/etc/camera/fdc_lite_cl.cache
+@@ -1818,10 +1809,6 @@ odm/etc/camera/pfb_bin/BeardSharp.bin
+ odm/etc/camera/pfb_bin/BeardSharp.frag
+ odm/etc/camera/pfb_bin/BeardSharp.vert
+ odm/etc/camera/pfb_bin/PreAddSRBinary.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterMixByFaceTargetBinary.bin
+ odm/etc/camera/pfb_bin/PreCalcSRBinary.bin
+ odm/etc/camera/pfb_bin/PreCalculateOutTex.bin
+ odm/etc/camera/pfb_bin/PreCalVarBinary.bin
+@@ -1899,6 +1886,7 @@ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin
+ odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin
+ odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin
+ odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin
++odm/etc/camera/qnn_binary_10332766617109390687.bin
+ odm/etc/camera/selfbokehmodel.bin
+ odm/etc/camera/selfbokehParam.json
+ odm/etc/camera/settings_fdc.txt
+@@ -1907,6 +1895,7 @@ odm/etc/camera/singleblur/license_release.license
+ odm/etc/camera/singleblur/personseg.bin
+ odm/etc/camera/singleblur/preview_seg.json
+ odm/etc/camera/spectrum_test_data_golden
++odm/etc/camera/stereoParams.bin
+ odm/etc/camera/sticker/material/animoji/data.zip
+ odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
+ odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
+@@ -2115,7 +2104,9 @@ odm/lib/android.hardware.graphics.allocator@2.0.so
+ odm/lib/android.hardware.graphics.allocator@3.0.so
+ odm/lib/android.hardware.graphics.allocator@4.0.so
+ odm/lib/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7.so
+-odm/lib/vendor.oplus.hardware.display.MixLut3D-V1-ndk.so
++odm/lib/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7p.so
++odm/lib/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-si.so
++odm/lib/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so
+ odm/lib/vendor.pixelworks.hardware.display@1.0.so
+ odm/lib/vendor.pixelworks.hardware.display@1.1.so
+@@ -2125,7 +2116,9 @@ odm/lib64/android.hardware.graphics.allocator@2.0.so
+ odm/lib64/android.hardware.graphics.allocator@3.0.so
+ odm/lib64/android.hardware.graphics.allocator@4.0.so
+ odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7.so
+-odm/lib64/vendor.oplus.hardware.display.MixLut3D-V1-ndk.so
++odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7p.so
++odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-si.so
++odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
+ odm/lib64/vendor.pixelworks.hardware.display@1.0.so
+ odm/lib64/vendor.pixelworks.hardware.display@1.1.so
+@@ -2195,7 +2188,6 @@ vendor/lib/vendor.display.config@1.7.so
+ vendor/lib/vendor.display.config@1.8.so
+ vendor/lib/vendor.display.config@1.9.so
+ vendor/lib/vendor.display.config@2.0.so
+-vendor/lib/vendor.pixelworks.hardware.display-V1-ndk.so
+ vendor/lib/vendor.pixelworks.hardware.display@1.0.so
+ vendor/lib/vendor.pixelworks.hardware.display@1.1.so
+ vendor/lib/vendor.pixelworks.hardware.display@1.2.so
+@@ -2255,7 +2247,6 @@ vendor/lib64/vendor.display.config@1.7.so
+ vendor/lib64/vendor.display.config@1.8.so
+ vendor/lib64/vendor.display.config@1.9.so
+ vendor/lib64/vendor.display.config@2.0.so
+-vendor/lib64/vendor.pixelworks.hardware.display-V1-ndk.so
+ vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
+ vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
+ vendor/lib64/vendor.pixelworks.hardware.display@1.2.so
+@@ -2378,6 +2369,7 @@ odm/bin/init.oplus.fingerprints.sh
+ odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+ odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
++odm/etc/permissions/oplus.fingerprint.unlock_without_icon.xml
+ odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml
+ -odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl.xml
+ odm/init.oplus.fingerprints.rc
+@@ -2409,10 +2401,17 @@ vendor/lib64/libqfp-service.so
+ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+ 
+ # Firmware
+-odm/firmware/fastchg/22861/bms_heating_config.txt
+-odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
+-odm/firmware/fastchg/22861/charging_thermal_config_default.txt
++odm/firmware/fastchg/23861/charging_hyper_mode_config.txt
++odm/firmware/fastchg/bms_heating_config.txt
++odm/firmware/fastchg/charge_time_config.csv
++odm/firmware/fastchg/charging_thermal_config_default.txt
+ odm/firmware/fastchg/smart_chg_config_table.txt
++odm/firmware/iris7p.fw
++odm/firmware/iris7p_ccf1.fw
++odm/firmware/iris7p_ccf2.fw
++odm/firmware/iris7p_ccf3.fw
++odm/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw
++odm/firmware/pxlw_i7p_vtdr6130_fhd_plus_vid.fw
+ odm/firmware/tfa98xx.cnt
+ odm/firmware/tp/19815/FW_S3908_SAMSUNG.img
+ odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img
+@@ -2499,12 +2498,15 @@ odm/firmware/tp/23801/LIMIT_S3910_TIANMA_HBP.img
+ odm/firmware/tp/23801/sys_edge_touch_config.xml
+ odm/firmware/tp/23801/sys_touch_algo_feature_config.xml
+ odm/firmware/tp/23801/sys_touch_function_feature_config.xml
++odm/firmware/ufs/MICRON-MT001TAYAX8U40.bin
++odm/firmware/ufs/MICRON-MT128GBCAV2U31.bin
+ odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
+-odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
++odm/firmware/ufs/SAMSUNG-KLUEG4RHGB-B0E1.bin
+ odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
+-odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin
+-odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
+ odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
++odm/firmware/ufs/SAMSUNG-KLUGGARHHD-B0G1.bin
++odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
++odm/firmware/ufs/ufs_version_config.xml
+ odm/vendor/firmware/alipay.b00
+ odm/vendor/firmware/alipay.b01
+ odm/vendor/firmware/alipay.b02
+@@ -2515,6 +2517,16 @@ odm/vendor/firmware/alipay.b06
+ odm/vendor/firmware/alipay.b07
+ odm/vendor/firmware/alipay.b08
+ odm/vendor/firmware/alipay.mdt
++odm/vendor/firmware/antdtx.b00
++odm/vendor/firmware/antdtx.b01
++odm/vendor/firmware/antdtx.b02
++odm/vendor/firmware/antdtx.b03
++odm/vendor/firmware/antdtx.b04
++odm/vendor/firmware/antdtx.b05
++odm/vendor/firmware/antdtx.b06
++odm/vendor/firmware/antdtx.b07
++odm/vendor/firmware/antdtx.b08
++odm/vendor/firmware/antdtx.mdt
+ odm/vendor/firmware/cryptoeng.b00
+ odm/vendor/firmware/cryptoeng.b01
+ odm/vendor/firmware/cryptoeng.b02
+@@ -2555,6 +2567,18 @@ odm/vendor/firmware/uff_spi.b06
+ odm/vendor/firmware/uff_spi.b07
+ odm/vendor/firmware/uff_spi.b08
+ odm/vendor/firmware/uff_spi.mdt
++vendor/firmware/a615_zap.b00
++vendor/firmware/a615_zap.b01
++vendor/firmware/a615_zap.b02
++vendor/firmware/a615_zap.elf
++vendor/firmware/a615_zap.mdt
++vendor/firmware/a630_sqe.fw
++vendor/firmware/a702_sqe.fw
++vendor/firmware/a702_zap.b00
++vendor/firmware/a702_zap.b01
++vendor/firmware/a702_zap.b02
++vendor/firmware/a702_zap.elf
++vendor/firmware/a702_zap.mdt
+ vendor/firmware/a740_sqe.fw
+ vendor/firmware/a740_zap.b00
+ vendor/firmware/a740_zap.b01
+@@ -3180,12 +3204,14 @@ odm/bin/hw/vendor-oplus-hardware-transmessage@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
+ odm/bin/hw/vendor.oplus.hardware.charger-V1-service
+ odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
++odm/bin/hw/vendor.oplus.hardware.eid@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.felica@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.gameopt-service
+ odm/bin/hw/vendor.oplus.hardware.mmdisplayfeature@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.olc2-V1-service
+ odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service
++odm/bin/hw/vendor.oplus.hardware.riskdetect-V1-service
+ odm/bin/hw/vendor.oplus.hardware.rpmh-V1-service
+ odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
+ odm/bin/hw/vendor.oplus.hardware.urcc-service
+@@ -3196,7 +3222,6 @@ odm/bin/init.oplus.wifi.sh
+ odm/bin/init.vendor.wifi.autochmod.sh
+ odm/bin/init.vendor.wifi.smart_antenna_switch.sh
+ odm/bin/init.vendor.wifiaction.sh
+-odm/bin/oplusmediaswcodec
+ odm/bin/oplus_sensor_fb
+ odm/bin/oplus_sensor_ssr
+ odm/bin/oplus_sensor_test
+@@ -3205,6 +3230,7 @@ odm/bin/wifisar
+ odm/bin/wifi_diag
+ odm/etc/bsp_storage_core_config_update.xml
+ odm/etc/devices_config/devices_config.json
++odm/etc/devices_config/keyboard_config.json
+ odm/etc/init/android.hardware.power.stats-service.oplus.rc
+ odm/etc/init/hw/init.oplus.bt.rc
+ odm/etc/init/hw/init.oplus.display.rc
+@@ -3225,22 +3251,38 @@ odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.charger-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
++odm/etc/init/vendor.oplus.hardware.eid@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.felica@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.gameopt-service.rc
+ odm/etc/init/vendor.oplus.hardware.mmdisplayfeature@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.olc2-V1-service.rc
++odm/etc/init/vendor.oplus.hardware.riskdetect-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.rpmh-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.urcc-service.rc
+ odm/etc/init/vendor.oplus.hardware.wifi-aidl-service-qcom.rc
+-odm/etc/init/vendor.oplus.media.c2-service.rc
+ odm/etc/init/vendor_engineermode.rc
+-odm/etc/media_codecs_ffmpeg.xml
+-odm/etc/media_codecs_oplus_c2.xml
+ odm/etc/media_codecs_vendor_oplus.xml
+ odm/etc/oplus.fstab
++odm/etc/oplusmetaaudio/HP_MOVIE_ANALOG.bin
++odm/etc/oplusmetaaudio/HP_MOVIE_BLUETOOTH.bin
++odm/etc/oplusmetaaudio/HP_MOVIE_DIGITAL.bin
++odm/etc/oplusmetaaudio/HP_MOVIE_GALILEO.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl1.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl10.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl2.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl3.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl4.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl5.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl6.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl7.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl8.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl9.bin
+ odm/etc/orms/orms_core_config.xml
+-odm/etc/orms/orms_core_config_india.xml
+ odm/etc/permissions/com.oplus.features_power.xml
+ odm/etc/permissions/vendor-oplus-hardware-charger.xml
+ odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml
+@@ -3248,12 +3290,11 @@ odm/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml
+ odm/etc/permissions/vendor-oplus-hardware-engineer-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-misc-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-oplusSensor-V1.xml
++odm/etc/permissions/vendor-oplus-hardware-riskdetect.xml
+ odm/etc/permissions/vendor-oplus-hardware-stability-oproject-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-touch-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-transmessage.xml
+ odm/etc/permissions/vendor.oplus.hardware.rpmh-V1.xml
+-odm/etc/seccomp_policy/oplusmediaswcodec.policy
+-odm/etc/seccomp_policy/oplusmediaswcodec_ext.policy
+ odm/etc/sensor/config/kailua_mtp_oplus_lay.json
+ odm/etc/vendor-oplus-hardware-charger-V1.xml
+ -odm/etc/vintf/manifest/android.hardware.power.stats-service.oplus.xml
+@@ -3265,12 +3306,14 @@ odm/etc/vendor-oplus-hardware-charger-V1.xml
+ -odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml
+ -odm/etc/vintf/manifest/manifest_oplus_cwb.xml
+ -odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature.xml
++-odm/etc/vintf/manifest/manifest_oplus_eid.xml
+ -odm/etc/vintf/manifest/manifest_oplus_esim.xml
+ -odm/etc/vintf/manifest/manifest_oplus_face.xml
+ -odm/etc/vintf/manifest/manifest_oplus_felica.xml
+ -odm/etc/vintf/manifest/manifest_oplus_gameopt.xml
+ -odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
+ -odm/etc/vintf/manifest/manifest_oplus_mmdisplayfeature.xml
++-odm/etc/vintf/manifest/manifest_oplus_riskdetect.xml
+ -odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
+ -odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
+ -odm/etc/vintf/manifest/manifest_oplus_virtualdevice_audio_aidl.xml
+@@ -3286,8 +3329,7 @@ odm/etc/wifi/bin_version
+ odm/etc/wifi/cnss_diag.conf
+ odm/etc/wifi/cnss_diag_always_on.conf
+ odm/etc/wifi/kiwi/bdwlan.b0a
+-odm/etc/wifi/kiwi/bdwlan.b0e
+-odm/etc/wifi/kiwi/bdwlan.b0i
++odm/etc/wifi/kiwi/bdwlan.b0ie
+ odm/etc/wifi/kiwi/bdwlan.elf
+ odm/etc/wifi/kiwi/regdb.bin
+ odm/etc/wifi/kiwi/regdb_version
+@@ -3298,21 +3340,12 @@ odm/etc/wifi/wifisar.cfg
+ odm/init.oplus.face.rc
+ odm/init.oplus.seccommon.rc
+ odm/lib/hw/vendor.oplus.hardware.binaural_record-impl.so
+-odm/lib/libavcodec.so
+-odm/lib/libavformat.so
+-odm/lib/libavutil.so
+-odm/lib/libdav1d.so.4
+ odm/lib/libdpservice.so
+-odm/lib/libffmpeg_omx.so
+-odm/lib/libmedia_opluscodecserviceregistrant.so
+ odm/lib/libormshalclient.so
+ odm/lib/librpmbengclient.so
+ odm/lib/libspatializerparamstorage.so
+-odm/lib/libswresample.so
+-odm/lib/libswscale.so
+ odm/lib/soundfx/libswdap_sp.so
+ odm/lib/soundfx/libswgamedap_sp.so
+-odm/lib/soundfx/libswspatializer.so
+ odm/lib/vendor.oplus.hardware.appradio@1.0.so
+ odm/lib/vendor.oplus.hardware.binaural_record-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.cammidasservice-V1-ndk.so
+@@ -3323,6 +3356,7 @@ odm/lib/vendor.oplus.hardware.communicationcenter-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.cryptoeng-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.cryptoeng@1.0.so
+ odm/lib/vendor.oplus.hardware.cwb@1.0.so
++odm/lib/vendor.oplus.hardware.eid-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.engcamera@1.0.so
+ odm/lib/vendor.oplus.hardware.engineer-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.esim-V1-ndk.so
+@@ -3343,6 +3377,7 @@ odm/lib/vendor.oplus.hardware.osense.client-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.performance-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.power.powermonitor-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.radio@1.0.so
++odm/lib/vendor.oplus.hardware.riskdetect-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.rpmh-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+@@ -3364,21 +3399,13 @@ odm/lib/vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl.so
+ odm/lib/vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl.so
+ odm/lib/vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl.so
+ odm/lib64/hw/vendor.oplus.hardware.binaural_record-impl.so
+-odm/lib64/libavcodec.so
+-odm/lib64/libavformat.so
+-odm/lib64/libavutil.so
+-odm/lib64/libdav1d.so.4
+ odm/lib64/libdpservice.so
+-odm/lib64/libmedia_opluscodecserviceregistrant.so
+ odm/lib64/libormshalclient.so
+ odm/lib64/librpmbengclient.so
+ odm/lib64/libspatializerparamstorage.so
+-odm/lib64/libswresample.so
+-odm/lib64/libswscale.so
+ odm/lib64/libSwYokinScale.so
+ odm/lib64/soundfx/libswdap_sp.so
+ odm/lib64/soundfx/libswgamedap_sp.so
+-odm/lib64/soundfx/libswspatializer.so
+ odm/lib64/vendor.oplus.hardware.appradio@1.0.so
+ odm/lib64/vendor.oplus.hardware.binaural_record-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk.so
+@@ -3389,6 +3416,7 @@ odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.cryptoeng-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so
+ odm/lib64/vendor.oplus.hardware.cwb@1.0.so
++odm/lib64/vendor.oplus.hardware.eid-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.engcamera@1.0.so
+ odm/lib64/vendor.oplus.hardware.engineer-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.esim-V1-ndk.so
+@@ -3409,6 +3437,7 @@ odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.performance-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.power.powermonitor-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.radio@1.0.so
++odm/lib64/vendor.oplus.hardware.riskdetect-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.rpmh-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+@@ -3429,7 +3458,6 @@ odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl.so
+ odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl.so
+ odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl.so
+ odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl.so
+--odm/overlay/oplus_framework_res_overlay.display.product.22861.apk
+ odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+ odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
+ odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
+@@ -4109,125 +4137,12 @@ vendor/lib/libsubsystem_control.so
+ vendor/lib64/libsubsystem_control.so
+ 
+ # Samsung
+-my_product/vendor/etc/display_brightness_config_samsung1024.xml
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml
+-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml
+-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml
+-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml
+ odm/etc/samsung1024_amb655uv01_eyeprotect_data.xml
+ odm/etc/samsung1024_amb655uv01_srgb_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_cinema_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_colorful_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_srgb_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_cinema_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_colorful_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_srgb_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_cinema_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_colorful_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_srgb_eyeprotect_data.xml
+ vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.json
+ vendor/etc/display/qdcm_calib_data_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.json
+ vendor/etc/display/qdcm_calib_data_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.json
+@@ -4267,19 +4182,16 @@ vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
+ vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+ 
+ # Sensor-configs
+-odm/etc/sensor/config/kailua_mtp_ak0991x.json
++odm/etc/sensor/config/aston_qrd_ois_system.json
+ odm/etc/sensor/config/kailua_mtp_alsps.json
+-odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3701.json
++odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3720.json
+ odm/etc/sensor/config/kailua_mtp_bmi26x.json
+ odm/etc/sensor/config/kailua_mtp_bmp380.json
+ odm/etc/sensor/config/kailua_mtp_cct_rear.json
+ odm/etc/sensor/config/kailua_mtp_freefall.json
+-odm/etc/sensor/config/kailua_mtp_icm4x6xx.json
+ odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
+-odm/etc/sensor/config/kailua_mtp_sx933x_0.json
+-odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json
++odm/etc/sensor/config/kailua_mtp_smart_prox.json
+ odm/etc/sensor/config/lux_aod.json
+-odm/etc/sensor/config/salami_qrd_ois_system.json
+ odm/etc/sensor/sensor_config.json
+ vendor/etc/sensors/config/chre_dynamic_sensors.json
+ vendor/etc/sensors/config/kailua_bu52053nvx_0.json
+@@ -4427,6 +4339,80 @@ vendor/lib64/libstreamparser.so
+ 
+ # Vibrator
+ odm/etc/aac_richtap.config
++odm/etc/vibrator/809/def/effect_1.bin
++odm/etc/vibrator/809/def/effect_10.bin
++odm/etc/vibrator/809/def/effect_100.bin
++odm/etc/vibrator/809/def/effect_101.bin
++odm/etc/vibrator/809/def/effect_102.bin
++odm/etc/vibrator/809/def/effect_103.bin
++odm/etc/vibrator/809/def/effect_104.bin
++odm/etc/vibrator/809/def/effect_105.bin
++odm/etc/vibrator/809/def/effect_106.bin
++odm/etc/vibrator/809/def/effect_107.bin
++odm/etc/vibrator/809/def/effect_108.bin
++odm/etc/vibrator/809/def/effect_109.bin
++odm/etc/vibrator/809/def/effect_11.bin
++odm/etc/vibrator/809/def/effect_110.bin
++odm/etc/vibrator/809/def/effect_111.bin
++odm/etc/vibrator/809/def/effect_112.bin
++odm/etc/vibrator/809/def/effect_118.bin
++odm/etc/vibrator/809/def/effect_12.bin
++odm/etc/vibrator/809/def/effect_122.bin
++odm/etc/vibrator/809/def/effect_13.bin
++odm/etc/vibrator/809/def/effect_14.bin
++odm/etc/vibrator/809/def/effect_170.bin
++odm/etc/vibrator/809/def/effect_2.bin
++odm/etc/vibrator/809/def/effect_3.bin
++odm/etc/vibrator/809/def/effect_302.bin
++odm/etc/vibrator/809/def/effect_303.bin
++odm/etc/vibrator/809/def/effect_304.bin
++odm/etc/vibrator/809/def/effect_305.bin
++odm/etc/vibrator/809/def/effect_308.bin
++odm/etc/vibrator/809/def/effect_365.bin
++odm/etc/vibrator/809/def/effect_4.bin
++odm/etc/vibrator/809/def/effect_41.bin
++odm/etc/vibrator/809/def/effect_42.bin
++odm/etc/vibrator/809/def/effect_43.bin
++odm/etc/vibrator/809/def/effect_44.bin
++odm/etc/vibrator/809/def/effect_45.bin
++odm/etc/vibrator/809/def/effect_46.bin
++odm/etc/vibrator/809/def/effect_47.bin
++odm/etc/vibrator/809/def/effect_5.bin
++odm/etc/vibrator/809/def/effect_51.bin
++odm/etc/vibrator/809/def/effect_52.bin
++odm/etc/vibrator/809/def/effect_53.bin
++odm/etc/vibrator/809/def/effect_54.bin
++odm/etc/vibrator/809/def/effect_55.bin
++odm/etc/vibrator/809/def/effect_56.bin
++odm/etc/vibrator/809/def/effect_59.bin
++odm/etc/vibrator/809/def/effect_6.bin
++odm/etc/vibrator/809/def/effect_60.bin
++odm/etc/vibrator/809/def/effect_61.bin
++odm/etc/vibrator/809/def/effect_62.bin
++odm/etc/vibrator/809/def/effect_63.bin
++odm/etc/vibrator/809/def/effect_64.bin
++odm/etc/vibrator/809/def/effect_65.bin
++odm/etc/vibrator/809/def/effect_66.bin
++odm/etc/vibrator/809/def/effect_67.bin
++odm/etc/vibrator/809/def/effect_68.bin
++odm/etc/vibrator/809/def/effect_69.bin
++odm/etc/vibrator/809/def/effect_7.bin
++odm/etc/vibrator/809/def/effect_8.bin
++odm/etc/vibrator/809/def/effect_9.bin
++odm/etc/vibrator/809/soft/effect_1.bin
++odm/etc/vibrator/809/soft/effect_105.bin
++odm/etc/vibrator/809/soft/effect_106.bin
++odm/etc/vibrator/809/soft/effect_107.bin
++odm/etc/vibrator/809/soft/effect_109.bin
++odm/etc/vibrator/809/soft/effect_2.bin
++odm/etc/vibrator/809/soft/effect_3.bin
++odm/etc/vibrator/809/soft/effect_4.bin
++odm/etc/vibrator/809/soft/effect_46.bin
++odm/etc/vibrator/809/soft/effect_47.bin
++odm/etc/vibrator/809/soft/effect_54.bin
++odm/etc/vibrator/809/soft/effect_6.bin
++odm/etc/vibrator/809/soft/effect_7.bin
++odm/etc/vibrator/vibrator_effect.json
+ vendor/bin/hw/vendor.qti.hardware.vibrator.service
+ vendor/etc/init/vendor.qti.hardware.vibrator.service.rc
+ -vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
+@@ -5606,6 +5592,7 @@ system_ext/etc/subsys-config.xml
+ system_ext/etc/sysconfig/google_smart_space.xml
+ system_ext/etc/sysconfig/hidden-api-whitelist-ext.xml
+ system_ext/etc/sysconfig/oneplus-hidden-api-whitelist-ext.xml
++system_ext/etc/sysconfig/preinstalled-packages-platform-oplus.xml
+ system_ext/etc/sysconfig/qti-initial-package-stopped-states.xml
+ system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
+ system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+@@ -6578,9 +6565,11 @@ system_ext/oplusex/public.libraries-oplusex.txt
+ -system_ext/priv-app/WirelessSettings/WirelessSettings.apk
+ -system_ext/priv-app/xrcbservice/xrcbservice.apk
+ -system_ext/priv-app/xrvdservice/xrvdservice.apk
+-my_product/vendor/etc/display_apollo_list.xml
++my_product/vendor/etc/display_apollo_list_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
+ my_product/vendor/etc/display_brightness_app_list.xml
++my_product/vendor/etc/display_brightness_config_P_3.xml
+ my_product/vendor/etc/multimedia_display_feature_config.xml
++my_product/vendor/etc/p_3_a0004_sensor_lock.xml
+ -vendor/app/CACertService/CACertService.apk
+ -vendor/app/TrustedUIService/TrustedUIService.apk
+ -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
