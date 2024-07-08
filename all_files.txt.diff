@@ -1,0 +1,3049 @@
+diff --git a/all_files.txt b/all_files.txt
+index e3ce527..665c076 100644
+--- a/all_files.txt
++++ b/all_files.txt
+@@ -6,18 +6,28 @@ bootRE/boot.elf
+ bootRE/ikconfig
+ bootRE/kernel_kallsyms.txt
+ dtbo/00_kernel
+-dtbo/01_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dtb
+-dtbo/02_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dtb
+-dtbo/03_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dtb
+-dtbo/04_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dtb
+-dtbo/05_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dtb
+-dtbo/06_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dtb
+-dtbodts/01_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dts
+-dtbodts/02_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dts
+-dtbodts/03_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dts
+-dtbodts/04_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dts
+-dtbodts/05_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dts
+-dtbodts/06_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,salami.dts
++dtbo/01_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/02_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/03_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/04_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/05_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/06_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/07_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/08_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/09_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/10_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbo/11_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dtb
++dtbodts/01_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/02_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/03_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/04_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/05_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/06_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/07_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/08_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/09_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/10_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
++dtbodts/11_dtbdump_Qualcomm_Technologies,_Inc._Kalama_MTP,aston.dts
+ dtbo.img
+ init_boot.img
+ lineage-device-tree/Android.bp
+@@ -160,10 +170,12 @@ modem/image/adsp.b28
+ modem/image/adsp.b29
+ modem/image/adsp.b30
+ modem/image/adsp.b31
++modem/image/adsp.b32
+ modem/image/adsp.b33
+ modem/image/adsp.b34
+ modem/image/adsp.b35
+ modem/image/adsp.b36
++modem/image/adsp.b37
+ modem/image/adsp.b38
+ modem/image/adsp.b39
+ modem/image/adsp.b40
+@@ -943,155 +955,16 @@ modem/image/winsecap.b07
+ modem/image/winsecap.b08
+ modem/image/winsecap.mdt
+ modem/verinfo/ver_info.txt
+-my_bigball/apkcerts.txt
+-my_bigball/app/AssistantScreen/AssistantScreen.apk
+-my_bigball/app/AssistantScreen/oat/arm64/AssistantScreen.vdex
+-my_bigball/app/Browser/Browser.apk
+-my_bigball/app/CalendarGoogle/CalendarGoogle.apk
+-my_bigball/app/Google_AssistantShell/Google_AssistantShell.apk
+-my_bigball/app/GoogleContacts/GoogleContacts.apk
+-my_bigball/app/Google_Lens/Google_Lens.apk
+-my_bigball/app/Google_Lens/oat/arm64/Google_Lens.vdex
+-my_bigball/app/Google_Wallet/Google_Wallet.apk
+-my_bigball/app/LatinImeGoogle/LatinImeGoogle.apk
+-my_bigball/applist/applist.txt
+-my_bigball/app/OplusPhoneActivation/oat/arm64/OplusPhoneActivation.vdex
+-my_bigball/app/OplusPhoneActivation/OplusPhoneActivation.apk
+-my_bigball/app/Photos/Photos.apk
+-my_bigball/build.prop
+-my_bigball/del-app/NewSoundRecorder/lib/arm64/libsilenceWrapper.so
+-my_bigball/del-app/NewSoundRecorder/lib/arm64/libSlienceDetect.so
+-my_bigball/del-app/NewSoundRecorder/NewSoundRecorder.apk
+-my_bigball/del-app-pre/Drive_del/Drive.apk
+-my_bigball/del-app-pre/Google_FindMyDevice/Google_FindMyDevice.apk
+-my_bigball/del-app-pre/Google_Home/Google_Home.apk
+-my_bigball/del-app-pre/Google_One/Google_One.apk
+-my_bigball/del-app-pre/Meet_del/Meet.apk
+-my_bigball/del-app-pre/Videos_del/Videos.apk
+-my_bigball/del-app-pre/YTMusic_del/YTMusic.apk
+-my_bigball/etc/battery/sys_deviceidle_whitelist.xml
+-my_bigball/etc/engineermode/config.json
+-my_bigball/etc/esim_card_os_patch.xml
+-my_bigball/etc/extension/AE/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/appfeature.export_and_gdpr_application_manager_hide_list.xml
+-my_bigball/etc/extension/appfeature.gdpr_cota_host_url.xml
+-my_bigball/etc/extension/appfeature.region_exp.com.oplus.battery.xml
+-my_bigball/etc/extension/AR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/AU/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/AZ/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/BD/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/BE/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/BH/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/BR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/CN/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/CO/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/CZ/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/DE/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/DK/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/DZ/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/EG/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/ES/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/feature_rsa4.0_t3_default_app.xml
+-my_bigball/etc/extension/FR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/GB/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/GR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/HK/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/HU/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/ID/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/IL/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/IN/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/IR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/IT/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/JP/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/KE/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/KH/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/KR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/KW/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/KZ/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/LA/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/LK/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/MA/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/MM/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/MX/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/MY/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/NG/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/NL/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/NO/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/NP/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/NZ/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/OC/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/OM/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/PH/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/PK/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/PL/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/PT/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/QA/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/README
+-my_bigball/etc/extension/RO/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/RU/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/SA/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/SE/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/SG/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/TH/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/TN/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/TR/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/trigger_manifest.xml
+-my_bigball/etc/extension/TW/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/UA/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/US/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/UZ/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/VN/appfeature.country.dynamic_features.xml
+-my_bigball/etc/extension/ZA/appfeature.country.dynamic_features.xml
+-my_bigball/etc/launcher/default_workspace_simple.xml
+-my_bigball/etc/launcher/default_workspace.xml
+-my_bigball/etc/NOTICE.xml.gz
+-my_bigball/etc/oplus_carriers_map.xml
+-my_bigball/etc/oplus_channel_map.xml
+-my_bigball/etc/oplus_channel_ready_stat_map.xml
+-my_bigball/etc/permissions/com.oplus.android.feature.PAI.xml
+-my_bigball/etc/permissions/EuiccGoogle_grant_permissions_list.xml
+-my_bigball/etc/permissions/HealthConnect_privapp_permissions.xml
+-my_bigball/etc/permissions/oplus.deviceowner.support.xml
+-my_bigball/etc/permissions/oplusfeature.region_exp.com.oplus.battery.xml
+-my_bigball/etc/permissions/oplus_google_lens_config.xml
+-my_bigball/etc/permissions/priapp-permissions-com.oplus.cota.xml
+-my_bigball/etc/permissions/privapp-permissions-google-product.xml
+-my_bigball/etc/region/build.prop
+-my_bigball/etc/rsa_chrome_config_homepage.xml
+-my_bigball/etc/sysconfig/asi_features.xml
+-my_bigball/etc/sysconfig/cds-feature-support.xml
+-my_bigball/etc/sysconfig/cds-pwr-save.xml
+-my_bigball/etc/sysconfig/com.google.android.dialer.support.xml
+-my_bigball/framework/com.google.android.dialer.support.jar
+-my_bigball/overlay/GmsConfigOverlayASI/GmsConfigOverlayASI.apk
+-my_bigball/overlay/GmsConfigOverlayCommonEx/GmsConfigOverlayCommonEx.apk
+-my_bigball/overlay/GmsConfigOverlayComms/GmsConfigOverlayComms.apk
+-my_bigball/overlay/GmsConfigOverlayGSA/GmsConfigOverlayGSA.apk
+-my_bigball/overlay/OplusCameraBigBallConfigOverlay/OplusCameraBigBallConfigOverlay.apk
+-my_bigball/overlay/OplusDocumentsUIOverlay/OplusDocumentsUIOverlay.apk
+-my_bigball/overlay/OplusGmsConfigOverlayCommon/OplusGmsConfigOverlayCommon.apk
+-my_bigball/priv-app/AndroidSystemIntelligence_Features/AndroidSystemIntelligence_Features.apk
+-my_bigball/priv-app/AndroidSystemIntelligence_Features/oat/arm64/AndroidSystemIntelligence_Features.vdex
+-my_bigball/priv-app/CrossDeviceServicesStub/CrossDeviceServicesStub.apk
+-my_bigball/priv-app/CrossDeviceServicesStub/oat/arm64/CrossDeviceServicesStub.vdex
+-my_bigball/priv-app/EuiccGoogle/EuiccGoogle.apk
+-my_bigball/priv-app/EuiccGoogle/oat/arm64/EuiccGoogle.vdex
+-my_bigball/priv-app/GlobalSearch/GlobalSearch.apk
+-my_bigball/priv-app/GlobalSearch/oat/arm64/GlobalSearch.vdex
+-my_bigball/priv-app/GlobalSearch/oat/arm/GlobalSearch.vdex
+-my_bigball/priv-app/GoogleDialer/GoogleDialer.apk
+-my_bigball/priv-app/GoogleDialer/oat/arm64/GoogleDialer.vdex
+-my_bigball/priv-app/Google_Files/Google_Files.apk
+-my_bigball/priv-app/Google_Files/oat/arm64/Google_Files.vdex
+-my_bigball/priv-app/Google_HealthConnect/Google_HealthConnect.apk
+-my_bigball/priv-app/Google_HealthConnect/oat/arm64/Google_HealthConnect.vdex
+-my_bigball/priv-app/Messages/Messages.apk
+-my_bigball/priv-app/Messages/oat/arm64/Messages.vdex
+-my_bigball/priv-app/OppoGallery2/oat/arm64/OppoGallery2.vdex
+-my_bigball/priv-app/OppoGallery2/OppoGallery2.apk
+-my_bigball/priv-app/PlayAutoInstallConfig_OnePlus/PlayAutoInstallConfig_OnePlus.apk
+-my_bigball/priv-app/PrivateComputeServices/oat/arm64/PrivateComputeServices.vdex
+-my_bigball/priv-app/PrivateComputeServices/PrivateComputeServices.apk
++my_bigball/animConf.json
++my_bigball/anim_expression.bin
++my_bigball/anim.json
++my_bigball/anim_rotate.bin
++my_bigball/anim_scale.bin
++my_bigball/anim_translate.bin
++my_bigball/boneMap.json
++my_bigball/builtin_info.json
++my_bigball/globals.json
++my_bigball/script.js
+ my_carrier/build.prop
+ my_engineering/build.prop
+ my_engineering/etc/key.config
+@@ -1117,11 +990,13 @@ my_heytap/app/InterconnectCollectKit/oat/arm64/InterconnectCollectKit.vdex
+ my_heytap/applist/applist.txt
+ my_heytap/app/Maps/Maps.apk
+ my_heytap/app/MCS/lib/arm64/libheytap_mcs_cipheralgo_fixed.so
++my_heytap/app/MCS/lib/arm64/libmmkv.so
+ my_heytap/app/MCS/MCS.apk
+ my_heytap/app/MCS/oat/arm64/MCS.vdex
+ my_heytap/app/MCS/oat/arm/MCS.vdex
+ my_heytap/app/Melody/Melody.apk
+ my_heytap/app/Melody/oat/arm64/Melody.vdex
++my_heytap/app/SpeechServicesByGoogle/oat/arm64/SpeechServicesByGoogle.vdex
+ my_heytap/app/SpeechServicesByGoogle/SpeechServicesByGoogle.apk
+ my_heytap/app/StdSP/oat/arm64/StdSP.vdex
+ my_heytap/app/StdSP/StdSP.apk
+@@ -1130,6 +1005,7 @@ my_heytap/app/talkback/talkback.apk
+ my_heytap/app/TrichromeLibrary/TrichromeLibrary.apk
+ my_heytap/app/WebViewGoogle/WebViewGoogle.apk
+ my_heytap/app/WifiBackupRestore/oat/arm64/WifiBackupRestore.vdex
++my_heytap/app/WifiBackupRestore/oat/arm/WifiBackupRestore.vdex
+ my_heytap/app/WifiBackupRestore/WifiBackupRestore.apk
+ my_heytap/app/YouTube/YouTube.apk
+ my_heytap/build.prop
+@@ -1304,41 +1180,32 @@ my_product/applist/applist.txt
+ my_product/app/OplusCamera/oat/arm64/OplusCamera.vdex
+ my_product/app/OplusCamera/OplusCamera.apk
+ my_product/build.prop
+-my_product/decouping_wallpaper/common/default_multi_sys_wallpaper.png
+ my_product/decouping_wallpaper/common/inlay_wallpaper1.png
+-my_product/decouping_wallpaper/common/inlay_wallpaper2.png
+-my_product/decouping_wallpaper/common/inlay_wallpaper3.png
+-my_product/decouping_wallpaper/common/inlay_wallpaper4.png
++my_product/decouping_wallpaper/common/inlay_wallpaper20.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper21.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper22.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper23.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper24.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper25.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper26.jpg
++my_product/decouping_wallpaper/common/inlay_wallpaper27.jpg
+ my_product/decouping_wallpaper/common/intuition_wallpaper/intuition_green_wallpaper.mp4
+ my_product/decouping_wallpaper/common/intuition_wallpaper/intuition_yellow_wallpaper.mp4
+-my_product/decouping_wallpaper/common/product_wallpaper10.jpg
+-my_product/decouping_wallpaper/common/product_wallpaper11.jpg
+-my_product/decouping_wallpaper/common/product_wallpaper12.png
+-my_product/decouping_wallpaper/common/product_wallpaper13.png
+-my_product/decouping_wallpaper/common/product_wallpaper14.jpg
+ my_product/decouping_wallpaper/common/product_wallpaper1.jpg
+ my_product/decouping_wallpaper/common/product_wallpaper2.jpg
+-my_product/decouping_wallpaper/common/product_wallpaper3.png
+-my_product/decouping_wallpaper/common/product_wallpaper4.png
+-my_product/decouping_wallpaper/common/product_wallpaper5.png
+-my_product/decouping_wallpaper/common/product_wallpaper6.jpg
+-my_product/decouping_wallpaper/common/product_wallpaper7.jpg
+-my_product/decouping_wallpaper/common/product_wallpaper8.jpg
+-my_product/decouping_wallpaper/common/product_wallpaper9.jpg
+-my_product/decouping_wallpaper/default/default_multi_sys_wallpaper.png
++my_product/decouping_wallpaper/common/product_wallpaper3.jpg
+ my_product/decouping_wallpaper/default/default_wallpaper_lock.png
+ my_product/decouping_wallpaper/default/default_wallpaper.png
+-my_product/decouping_wallpaper/default/liveWallpaper/salami0.mp4
+-my_product/decouping_wallpaper/default/liveWallpaper/salami10.mp4
+-my_product/decouping_wallpaper/default/liveWallpaper/salami1.mp4
++my_product/decouping_wallpaper/default/liveWallpaper/aston_1.mp4
++my_product/decouping_wallpaper/default/liveWallpaper/aston_2.mp4
++my_product/decouping_wallpaper/default/liveWallpaper/aston_3.mp4
+ my_product/decouping_wallpaper/default/liveWallpaper/salami2.mp4
+ my_product/decouping_wallpaper/default/liveWallpaper/salami3.mp4
+ my_product/decouping_wallpaper/default/liveWallpaper/salami4.mp4
+-my_product/decouping_wallpaper/default/liveWallpaper/salami5.mp4
+ my_product/decouping_wallpaper/default/liveWallpaper/salami6.mp4
+ my_product/decouping_wallpaper/default/liveWallpaper/salami7.mp4
+ my_product/decouping_wallpaper/default/liveWallpaper/salami8.mp4
+-my_product/decouping_wallpaper/default/liveWallpaper/salami9.mp4
++my_product/decouping_wallpaper/default/liveWallpaper/udon1.mp4
+ my_product/decouping_wallpaper/default/phone_color_default_theme_maps.xml
+ my_product/decouping_wallpaper/default/preview_0_en.png
+ my_product/decouping_wallpaper/default/preview_0.png
+@@ -1347,15 +1214,22 @@ my_product/decouping_wallpaper/default/preview_1.png
+ my_product/decouping_wallpaper/default/thumb_en.png
+ my_product/decouping_wallpaper/default/thumb.png
+ my_product/decouping_wallpaper/wallpaper_info.xml
++my_product/del-app/ConsumerIRApp/ConsumerIRApp.apk
+ my_product/etc/apns-conf.xml
+ my_product/etc/apns-version.xml
+ my_product/etc/audio_policy_configuration.xml
+ my_product/etc/audio_policy_volumes.xml
++my_product/etc/camera/calibrationCfg.xml
+ my_product/etc/camera/engineer_camera_config
+-my_product/etc/camera/mtCalibrationCfg.xml
+-my_product/etc/camera/mwCalibrationCfg.xml
+ my_product/etc/cooleffect/colorx.dat
+ my_product/etc/cooleffect/defaultEncryptedData/cf.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.activision.callofduty.shooter_hdr.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.miHoYo.Yuanshen_hdr.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.mobile.legends_hdr.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.riotgames.league.wildrift_hdr.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.tencent.ig_hdr.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.tencent.tmgp.pubgmhd_hdr.dat
++my_product/etc/cooleffect/defaultEncryptedData/com.tencent.tmgp.sgame_hdr.dat
+ my_product/etc/cooleffect/defaultEncryptedData/dwrg.dat
+ my_product/etc/cooleffect/defaultEncryptedData/fortnite.dat
+ my_product/etc/cooleffect/defaultEncryptedData/lolm.dat
+@@ -1365,12 +1239,18 @@ my_product/etc/cooleffect/defaultEncryptedData/pubg.dat
+ my_product/etc/cooleffect/defaultEncryptedData/pubg_international.dat
+ my_product/etc/cooleffect/defaultEncryptedData/speedmobile.dat
+ my_product/etc/cooleffect/defaultEncryptedData/wzry.dat
+-my_product/etc/cooleffect/defaultEncryptedData/wzryROR.dat
+ my_product/etc/cooleffect/defaultFilterConfig.dat
+ my_product/etc/default_volume_tables.xml
+ my_product/etc/ecc_list.xml
+ my_product/etc/engineermode/features/engineermode_featureoptions.xml
+-my_product/etc/engineermode/modeltest/modeltest10_list.xml
++my_product/etc/extension/1115S1Metro_TMUS/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1115S2Assurance_TMUS/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1115_TMUS/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1118_ATT-US/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1134_Verizon/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1141_Cellcom/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1142_Altice/carrierReady/oplus_carrier_config.xml
++my_product/etc/extension/1615_TMUS/carrierReady/oplus_carrier_config.xml
+ my_product/etc/extension/com.oplus.app-features.xml
+ my_product/etc/extension/com.oplus.oplus-feature.xml
+ my_product/etc/extension/feature_com.android.battery.xml
+@@ -1378,19 +1258,16 @@ my_product/etc/extension/feature_com.android.phone.xml
+ my_product/etc/extension/feature_com.android.settings.xml
+ my_product/etc/extension/feature_com.android.systemui.xml
+ my_product/etc/extension/feature_ota.xml
+-my_product/etc/extension/feature_product_com.android.settings.xml
+ my_product/etc/extension/feature_relax.xml
+ my_product/etc/extension/regulatory_info_config_product.xml
+ my_product/etc/extension/sys_game_manager_config.json
+-my_product/etc/Multimedia_Daemon_Ext_List.xml
++my_product/etc/fusionlight_profile/fusionlight_Main_1_3.json
+ my_product/etc/Multimedia_Feedback_List.xml
+ my_product/etc/NOTICE.xml.gz
+-my_product/etc/oplus_pinfile_config_v2.xml
+ my_product/etc/oplus_vrr_config.json
+ my_product/etc/permissions/android.hardware.fingerprint.xml
+ my_product/etc/permissions/android.hardware.telephony.euicc.xml
+ my_product/etc/permissions/android.software.angle.xml
+-my_product/etc/permissions/com.dolby_v3_6.daxservice.xml
+ my_product/etc/permissions/com.oplus.android-features.xml
+ my_product/etc/permissions/com.oplus.newsoundrecord_configs.xml
+ my_product/etc/permissions/com.oplus.product.connectivity.common.features.xml
+@@ -1404,7 +1281,6 @@ my_product/etc/permissions/oplus.features.network.common.xml
+ my_product/etc/permissions/oplus.features.network.xml
+ my_product/etc/permissions/oplus.product.display_features.xml
+ my_product/etc/permissions/oplus.product.feature_aon.xml
+-my_product/etc/permissions/oplus.product.feature_audio_route.xml
+ my_product/etc/permissions/oplus.product.feature_effect_unique.xml
+ my_product/etc/permissions/oplus.product.feature_ktv_third_party.xml
+ my_product/etc/permissions/oplus.product.feature_ktv.xml
+@@ -1415,10 +1291,9 @@ my_product/etc/permissions/oplus.product.features_gameeco_unique.xml
+ my_product/etc/permissions/oplus.product.features_multimedia_common.xml
+ my_product/etc/permissions/oplus.product.feature_video_unique.xml
+ my_product/etc/refresh_rate_config.xml
+-my_product/etc/sar_config_EUEX.xml
+-my_product/etc/sar_config_FCC.xml
+-my_product/etc/sar_config_IN.xml
+ my_product/etc/sar_config.xml
++my_product/etc/string_super_computing.zip
++my_product/etc/super_computing_config.json
+ my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml
+ my_product/etc/sys_perf_config.json
+ my_product/etc/sys_resolution_switch_config.xml
+@@ -1426,8 +1301,6 @@ my_product/etc/vendor_oplus_carriername.xml
+ my_product/etc/vibrator/effect2waveform.xml
+ my_product/etc/vibrator/effect_waveform.xml
+ my_product/etc/vibrator_service_config/inputmethod_duration_map.xml
+-my_product/etc/vibrator/vibrator_customized_etc.json
+-my_product/etc/wifi_product_config.xml
+ my_product/etc/wifisarconfig.xml
+ my_product/framework/com.android.hotwordenrollment.common.util.impl.jar
+ my_product/framework/com.android.hotwordenrollment.common.util.jar
+@@ -1467,17 +1340,18 @@ my_product/lib/libAPSClient-jni.so
+ my_product/lib/libcolorx-loader.so
+ my_product/lib/libcolorx.so
+ my_product/lib/libcoolex.so
+-my_product/media/bootanimation_au/bootanimation.zip
+-my_product/media/bootanimation_au/rbootanimation.zip
+ my_product/media/bootanimation/bootanimation.zip
+-my_product/media/bootanimation_kddi/bootanimation.zip
+-my_product/media/bootanimation_kddi/rbootanimation.zip
+-my_product/media/bootanimation/.nomedia
+ my_product/media/bootanimation/rbootanimation.zip
+-my_product/media/bootanimation_spark/bootanimation.zip
+-my_product/media/bootanimation_spark/rbootanimation.zip
+-my_product/media/bootanimation_telstra_prepaid/bootanimation.zip
+-my_product/media/bootanimation_telstra_prepaid/rbootanimation.zip
++my_product/media/HoloAudio/audio_res/10_Notification.ogg
++my_product/media/HoloAudio/audio_res/11_Navigation.ogg
++my_product/media/HoloAudio/audio_res/2_Music.ogg
++my_product/media/HoloAudio/audio_res/3_Listening.ogg
++my_product/media/HoloAudio/audio_res/4_Video1.ogg
++my_product/media/HoloAudio/audio_res/5_Video2.ogg
++my_product/media/HoloAudio/audio_res/7_Voip.ogg
++my_product/media/HoloAudio/audio_res/8_Ringing.ogg
++my_product/media/HoloAudio/audio_res/9_Alarm.ogg
++my_product/media/HoloAudio/holo_audio_movie_play.mp4
+ my_product/media/quickboot/boot_bat_temp_low.png
+ my_product/media/quickboot/boot_black_picture.png
+ my_product/media/quickboot/boot_charger_01.png
+@@ -1667,12 +1541,13 @@ my_product/media/spatializer/spatial_audio_head_tracking.mp4
+ my_product/media/spatializer/spatial_audio_off.m4a
+ my_product/media/spatializer/spatial_audio_off.mp4
+ my_product/media/touchstyle/touch_style_preview.m4v
++my_product/overlay/android_framework_res_overlay.display.product.23861.apk
+ my_product/overlay/android_framework_res_rro_export_oneplus.apk
+ my_product/overlay/aon_framework_res_overlay.display.product.apk
+-my_product/overlay/CarrierConfigOverlay.22861U.apk
+-my_product/overlay/com.android.SystemUIResOverlay.22861.apk
+-my_product/overlay/framework_res_overlay.network.22861.apk
+-my_product/overlay/oplus_framework_res_overlay.display.product.22861.apk
++my_product/overlay/CarrierConfigOverlay.product.23861.apk
++my_product/overlay/com.android.SystemUIResOverlay.23861.apk
++my_product/overlay/framework_res_overlay.network.23861.apk
++my_product/overlay/oplus_framework_res_overlay.display.product.23861.apk
+ my_product/overlay/oplus_framework_res_rro_oneplus.apk
+ my_product/overlay/SystemUIChargingRes_Siphon_Wireless.apk
+ my_product/overlay/SystemUIFingerprintRes_13_0_COSMOS.apk
+@@ -1682,7 +1557,6 @@ my_product/overlay/SystemUIFingerprintRes_13_0_NONE.apk
+ my_product/overlay/SystemUIFingerprintRes_13_0_RIPPLE.apk
+ my_product/overlay/SystemUIFingerprintRes_13_0_STRIPE.apk
+ my_product/overlay/SystemUIFingerprintRes_13_0_SW.apk
+-my_product/overlay/u.android_framework_res_overlay.display.product.22861.apk
+ my_product/priv-app/ANGLE/ANGLE.apk
+ my_product/priv-app/ANGLE/oat/arm64/ANGLE.vdex
+ my_product/priv-app/ANGLE/oat/arm/ANGLE.vdex
+@@ -1696,648 +1570,647 @@ my_product/product_overlay/etc/permissions/com.oplus.camera.unit.sdk_product.xml
+ my_product/product_overlay/etc/permissions/oplus_camera_default_grant_permissions_list.xml
+ my_product/product_overlay/framework/com.oplus.camera.unit.sdk.adapter.jar
+ my_product/product_overlay/framework/com.oplus.camera.unit.sdk.jar
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/A_gust_of_wind.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Allay.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Allusion.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Amiable.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Blare.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Blink.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Blissful.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Brisk.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Bubble.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Cheerful.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Clear.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Clouds.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Comely.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Cozy.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Crystal.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Dew_on_the_bamboo.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Ding.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Dragonfly.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Droplets.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Effervesce.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Elegant.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Fairy_realm.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Free.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Full_moon.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Glistening.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Hallucination.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Inbound.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Light.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Meet.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Naivety.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Quickly.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Raindrop.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Reverberation.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Serenity.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Shooting_star.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Slipping.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Sliver_of_light.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Snowflake.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Snow_underfoot.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Splash.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Surprise.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Twinkle.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Warming_sun.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Whoop_doop.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/notifications/Wind_chime.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Alacrity.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Alarm_clock.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Amenity.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Beep.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Blanket_of_snow.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Blues.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Bounce.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Breeze.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Calm.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Chase.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Climber.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Cloud.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Cloudscape.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Cyclotron.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Dawn.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Distinct.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Dream.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Drizzling.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Dynamic.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Eager.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Ebullition.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Echo.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Expect.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Fanatical.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Far_away.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/First_rays.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Fluttering.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Flyer.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Forest_morning.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Friendship.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Funky.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Good_energy.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Guitar.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Harping.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Highlight.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Idyl.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Innocence.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Interesting.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Jazz_life.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Journey.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Joyous.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Lazy.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Leisurely.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Lotus_by_moonlight.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Marimba.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Meditation.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Memory.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Mystical.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Nature.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Night_sky.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Old_telephone.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/OnePlus_new_feeling.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/OnePlus_tune.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/OnePlus_tune_rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Optimistic.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Piano.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Rainforest.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Relieved.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Ripple.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Shimmer.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Slowly.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Snow_falling.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Spring.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Stars.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Summer_beach.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Summer_night.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Sun_glittering.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Sunlight_on_snow.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Sunrise.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Sunset.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Surging.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Tactfully.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/The_wind.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Tranquil.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Twinkling_stars.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Verdant_lotus_pond.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Waking_city.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Walking_in_the_rain.ogg
+-my_product/res/audio/haptic_ringtone/output122HZ/ringtones/Whirl.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/A_gust_of_wind.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Allay.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Allusion.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Amiable.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Blare.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Blink.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Blissful.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Brisk.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Bubble.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Cheerful.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Clear.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Clouds.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Comely.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Cozy.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Crystal.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Dew_on_the_bamboo.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Ding.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Dragonfly.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Droplets.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Effervesce.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Elegant.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Fairy_realm.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Free.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Full_moon.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Glistening.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Hallucination.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Inbound.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Light.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Meet.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Naivety.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Quickly.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Raindrop.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Reverberation.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Serenity.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Shooting_star.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Slipping.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Sliver_of_light.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Snowflake.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Snow_underfoot.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Splash.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Surprise.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Twinkle.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Warming_sun.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Whoop_doop.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/notifications/Wind_chime.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Alacrity.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Alarm_clock.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Amenity.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Beep.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Blanket_of_snow.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Blues.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Bounce.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Breeze.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Calm.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Chase.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Climber.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Cloud.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Cloudscape.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Cyclotron.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Dawn.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Distinct.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Dream.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Drizzling.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Dynamic.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Eager.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Ebullition.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Echo.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Expect.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Fanatical.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Far_away.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/First_rays.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Fluttering.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Flyer.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Forest_morning.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Friendship.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Funky.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Good_energy.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Guitar.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Harping.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Highlight.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Idyl.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Innocence.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Interesting.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Jazz_life.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Journey.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Joyous.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Lazy.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Leisurely.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Lotus_by_moonlight.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Marimba.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Meditation.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Memory.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Mystical.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Nature.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Night_sky.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Old_telephone.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/OnePlus_new_feeling.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/OnePlus_tune.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/OnePlus_tune_rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Optimistic.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Piano.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Rainforest.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Relieved.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Ripple.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Shimmer.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Slowly.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Snow_falling.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Spring.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Stars.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Summer_beach.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Summer_night.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Sun_glittering.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Sunlight_on_snow.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Sunrise.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Sunset.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Surging.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Tactfully.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/The_wind.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Tranquil.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Twinkling_stars.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Verdant_lotus_pond.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Waking_city.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Walking_in_the_rain.ogg
+-my_product/res/audio/haptic_ringtone/output126HZ/ringtones/Whirl.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/A_gust_of_wind.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Allay.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Allusion.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Amiable.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Blare.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Blink.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Blissful.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Brisk.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Bubble.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Cheerful.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Clear.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Clouds.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Comely.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Cozy.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Crystal.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Dew_on_the_bamboo.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Ding.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Dragonfly.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Droplets.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Effervesce.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Elegant.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Fairy_realm.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Free.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Full_moon.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Glistening.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Hallucination.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Inbound.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Light.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Meet.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Naivety.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Quickly.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Raindrop.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Reverberation.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Serenity.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Shooting_star.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Slipping.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Sliver_of_light.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Snowflake.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Snow_underfoot.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Splash.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Surprise.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Twinkle.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Warming_sun.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Whoop_doop.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/notifications/Wind_chime.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Alacrity.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Alarm_clock.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Amenity.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Beep.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Blanket_of_snow.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Blues.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Bounce.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Breeze.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Calm.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Chase.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Climber.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Cloud.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Cloudscape.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Cyclotron.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Dawn.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Distinct.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Dream.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Drizzling.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Dynamic.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Eager.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Ebullition.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Echo.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Expect.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Fanatical.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Far_away.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/First_rays.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Fluttering.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Flyer.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Forest_morning.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Friendship.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Funky.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Good_energy.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Guitar.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Harping.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Highlight.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Idyl.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Innocence.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Interesting.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Jazz_life.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Journey.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Joyous.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Lazy.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Leisurely.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Lotus_by_moonlight.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Marimba.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Meditation.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Memory.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Mystical.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Nature.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Night_sky.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Old_telephone.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/OnePlus_new_feeling.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/OnePlus_tune.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/OnePlus_tune_rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Optimistic.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Piano.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Rainforest.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Relieved.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Ripple.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Shimmer.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Slowly.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Snow_falling.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Spring.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Stars.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Summer_beach.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Summer_night.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Sun_glittering.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Sunlight_on_snow.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Sunrise.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Sunset.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Surging.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Tactfully.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/The_wind.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Tranquil.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Twinkling_stars.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Verdant_lotus_pond.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Waking_city.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Walking_in_the_rain.ogg
+-my_product/res/audio/haptic_ringtone/output130HZ/ringtones/Whirl.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/A_gust_of_wind.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Allay.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Allusion.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Amiable.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Blare.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Blink.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Blissful.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Brisk.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Bubble.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Cheerful.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Clear.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Clouds.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Comely.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Cozy.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Crystal.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Dew_on_the_bamboo.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Ding.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Dragonfly.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Droplets.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Effervesce.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Elegant.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Fairy_realm.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Free.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Full_moon.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Glistening.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Hallucination.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Inbound.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Light.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Meet.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Naivety.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Quickly.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Raindrop.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Reverberation.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Serenity.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Shooting_star.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Slipping.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Sliver_of_light.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Snowflake.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Snow_underfoot.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Splash.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Surprise.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Twinkle.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Warming_sun.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Whoop_doop.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/notifications/Wind_chime.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Alacrity.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Alarm_clock.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Amenity.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Beep.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Blanket_of_snow.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Blues.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Bounce.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Breeze.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Calm.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Chase.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Climber.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Cloud.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Cloudscape.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Cyclotron.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Dawn.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Distinct.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Dream.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Drizzling.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Dynamic.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Eager.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Ebullition.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Echo.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Expect.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Fanatical.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Far_away.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/First_rays.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Fluttering.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Flyer.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Forest_morning.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Friendship.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Funky.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Good_energy.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Guitar.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Harping.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Highlight.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Idyl.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Innocence.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Interesting.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Jazz_life.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Journey.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Joyous.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Lazy.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Leisurely.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Lotus_by_moonlight.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Marimba.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Meditation.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Memory.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Mystical.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Nature.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Night_sky.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Old_telephone.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/OnePlus_new_feeling.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/OnePlus_tune.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/OnePlus_tune_rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Optimistic.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Piano.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Rainforest.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Relieved.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Ripple.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Shimmer.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Slowly.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Snow_falling.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Spring.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Stars.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Summer_beach.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Summer_night.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Sun_glittering.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Sunlight_on_snow.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Sunrise.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Sunset.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Surging.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Tactfully.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/The_wind.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Tranquil.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Twinkling_stars.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Verdant_lotus_pond.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Waking_city.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Walking_in_the_rain.ogg
+-my_product/res/audio/haptic_ringtone/output134HZ/ringtones/Whirl.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/A_gust_of_wind.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Allay.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Allusion.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Amiable.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Blare.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Blink.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Blissful.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Brisk.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Bubble.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Cheerful.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Clear.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Clouds.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Comely.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Cozy.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Crystal.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Dew_on_the_bamboo.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Ding.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Dragonfly.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Droplets.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Effervesce.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Elegant.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Fairy_realm.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Free.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Full_moon.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Glistening.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Hallucination.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Inbound.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Light.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Meet.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Naivety.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Quickly.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Raindrop.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Reverberation.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Serenity.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Shooting_star.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Slipping.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Sliver_of_light.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Snowflake.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Snow_underfoot.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Splash.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Surprise.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Twinkle.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Warming_sun.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Whoop_doop.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/notifications/Wind_chime.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Alacrity.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Alarm_clock.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Amenity.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Beep.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Blanket_of_snow.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Blues.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Bounce.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Breeze.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Calm.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Chase.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Climber.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Cloud.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Cloudscape.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Cyclotron.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Dawn.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Distinct.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Dream.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Drizzling.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Dynamic.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Eager.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Ebullition.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Echo.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Expect.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Fanatical.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Far_away.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/First_rays.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Fluttering.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Flyer.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Forest_morning.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Friendship.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Funky.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Good_energy.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Guitar.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Harping.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Highlight.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Idyl.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Innocence.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Interesting.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Jazz_life.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Journey.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Joyous.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Lazy.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Leisurely.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Lotus_by_moonlight.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Marimba.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Meditation.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Memory.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Mystical.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Nature.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Night_sky.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Old_telephone.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/OnePlus_new_feeling.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/OnePlus_tune.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/OnePlus_tune_rhythm.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Optimistic.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Piano.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Rainforest.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Relieved.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Ripple.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Shimmer.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Slowly.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Snow_falling.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Spring.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Stars.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Summer_beach.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Summer_night.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Sun_glittering.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Sunlight_on_snow.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Sunrise.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Sunset.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Surging.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Tactfully.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/The_wind.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Tranquil.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Twinkling_stars.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Verdant_lotus_pond.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Waking_city.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Walking_in_the_rain.ogg
+-my_product/res/audio/haptic_ringtone/output138HZ/ringtones/Whirl.ogg
+-my_product/vendor/etc/display_apollo_list.xml
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/A_gust_of_wind.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Allay.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Allusion.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Amiable.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Blare.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Blink.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Blissful.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Brisk.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Bubble.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Cheerful.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Clear.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Clouds.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Comely.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Cozy.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Crystal.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Dew_on_the_bamboo.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Ding.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Dragonfly.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Droplets.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Effervesce.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Elegant.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Fairy_realm.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Free.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Full_moon.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Glistening.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Hallucination.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Inbound.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Light.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Meet.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Naivety.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Quickly.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Raindrop.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Reverberation.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Rhythm.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Serenity.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Shooting_star.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Slipping.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Sliver_of_light.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Snowflake.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Snow_underfoot.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Splash.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Surprise.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Twinkle.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Warming_sun.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Whoop_doop.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/notifications/Wind_chime.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Alacrity.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Alarm_clock.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Amenity.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Beep.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Blanket_of_snow.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Blues.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Bounce.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Breeze.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Calm.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Chase.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Climber.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Cloud.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Cloudscape.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Cyclotron.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Dawn.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Distinct.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Dream.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Drizzling.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Dynamic.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Eager.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Ebullition.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Echo.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Expect.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Fanatical.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Far_away.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/First_rays.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Fluttering.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Flyer.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Forest_morning.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Friendship.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Funky.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Good_energy.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Guitar.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Harping.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Highlight.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Idyl.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Innocence.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Interesting.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Jazz_life.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Journey.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Joyous.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Lazy.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Leisurely.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Lotus_by_moonlight.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Marimba.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Meditation.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Memory.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Mystical.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Nature.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Night_sky.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Old_telephone.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/OnePlus_new_feeling.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/OnePlus_tune.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/OnePlus_tune_rhythm.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Optimistic.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Piano.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Rainforest.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Relieved.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Ripple.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Shimmer.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Slowly.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Snow_falling.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Spring.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Stars.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Summer_beach.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Summer_night.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Sun_glittering.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Sunlight_on_snow.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Sunrise.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Sunset.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Surging.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Tactfully.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/The_wind.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Tranquil.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Twinkling_stars.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Verdant_lotus_pond.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Waking_city.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Walking_in_the_rain.ogg
++my_product/res/audio/haptic_ringtone/output162HZ/ringtones/Whirl.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/A_gust_of_wind.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Allay.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Allusion.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Amiable.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Blare.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Blink.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Blissful.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Brisk.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Bubble.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Cheerful.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Clear.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Clouds.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Comely.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Cozy.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Crystal.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Dew_on_the_bamboo.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Ding.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Dragonfly.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Droplets.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Effervesce.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Elegant.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Fairy_realm.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Free.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Full_moon.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Glistening.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Hallucination.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Inbound.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Light.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Meet.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Naivety.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Quickly.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Raindrop.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Reverberation.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Rhythm.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Serenity.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Shooting_star.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Slipping.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Sliver_of_light.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Snowflake.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Snow_underfoot.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Splash.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Surprise.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Twinkle.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Warming_sun.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Whoop_doop.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/notifications/Wind_chime.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Alacrity.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Alarm_clock.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Amenity.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Beep.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Blanket_of_snow.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Blues.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Bounce.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Breeze.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Calm.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Chase.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Climber.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Cloud.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Cloudscape.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Cyclotron.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Dawn.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Distinct.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Dream.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Drizzling.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Dynamic.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Eager.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Ebullition.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Echo.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Expect.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Fanatical.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Far_away.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/First_rays.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Fluttering.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Flyer.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Forest_morning.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Friendship.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Funky.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Good_energy.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Guitar.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Harping.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Highlight.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Idyl.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Innocence.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Interesting.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Jazz_life.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Journey.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Joyous.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Lazy.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Leisurely.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Lotus_by_moonlight.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Marimba.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Meditation.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Memory.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Mystical.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Nature.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Night_sky.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Old_telephone.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/OnePlus_new_feeling.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/OnePlus_tune.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/OnePlus_tune_rhythm.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Optimistic.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Piano.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Rainforest.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Relieved.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Ripple.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Shimmer.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Slowly.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Snow_falling.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Spring.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Stars.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Summer_beach.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Summer_night.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Sun_glittering.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Sunlight_on_snow.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Sunrise.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Sunset.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Surging.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Tactfully.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/The_wind.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Tranquil.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Twinkling_stars.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Verdant_lotus_pond.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Waking_city.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Walking_in_the_rain.ogg
++my_product/res/audio/haptic_ringtone/output166HZ/ringtones/Whirl.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/A_gust_of_wind.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Allay.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Allusion.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Amiable.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Blare.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Blink.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Blissful.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Brisk.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Bubble.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Cheerful.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Clear.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Clouds.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Comely.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Cozy.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Crystal.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Dew_on_the_bamboo.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Ding.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Dragonfly.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Droplets.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Effervesce.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Elegant.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Fairy_realm.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Free.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Full_moon.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Glistening.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Hallucination.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Inbound.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Light.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Meet.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Naivety.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Quickly.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Raindrop.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Reverberation.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Rhythm.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Serenity.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Shooting_star.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Slipping.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Sliver_of_light.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Snowflake.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Snow_underfoot.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Splash.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Surprise.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Twinkle.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Warming_sun.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Whoop_doop.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/notifications/Wind_chime.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Alacrity.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Alarm_clock.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Amenity.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Beep.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Blanket_of_snow.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Blues.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Bounce.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Breeze.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Calm.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Chase.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Climber.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Cloud.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Cloudscape.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Cyclotron.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Dawn.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Distinct.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Dream.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Drizzling.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Dynamic.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Eager.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Ebullition.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Echo.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Expect.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Fanatical.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Far_away.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/First_rays.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Fluttering.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Flyer.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Forest_morning.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Friendship.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Funky.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Good_energy.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Guitar.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Harping.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Highlight.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Idyl.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Innocence.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Interesting.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Jazz_life.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Journey.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Joyous.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Lazy.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Leisurely.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Lotus_by_moonlight.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Marimba.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Meditation.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Memory.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Mystical.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Nature.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Night_sky.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Old_telephone.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/OnePlus_new_feeling.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/OnePlus_tune.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/OnePlus_tune_rhythm.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Optimistic.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Piano.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Rainforest.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Relieved.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Ripple.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Shimmer.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Slowly.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Snow_falling.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Spring.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Stars.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Summer_beach.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Summer_night.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Sun_glittering.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Sunlight_on_snow.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Sunrise.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Sunset.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Surging.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Tactfully.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/The_wind.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Tranquil.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Twinkling_stars.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Verdant_lotus_pond.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Waking_city.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Walking_in_the_rain.ogg
++my_product/res/audio/haptic_ringtone/output170HZ/ringtones/Whirl.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/A_gust_of_wind.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Allay.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Allusion.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Amiable.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Blare.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Blink.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Blissful.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Brisk.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Bubble.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Cheerful.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Clear.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Clouds.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Comely.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Cozy.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Crystal.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Dew_on_the_bamboo.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Ding.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Dragonfly.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Droplets.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Effervesce.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Elegant.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Fairy_realm.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Free.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Full_moon.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Glistening.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Hallucination.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Inbound.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Light.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Meet.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Naivety.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Quickly.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Raindrop.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Reverberation.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Rhythm.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Serenity.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Shooting_star.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Slipping.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Sliver_of_light.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Snowflake.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Snow_underfoot.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Splash.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Surprise.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Twinkle.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Warming_sun.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Whoop_doop.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/notifications/Wind_chime.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Alacrity.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Alarm_clock.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Amenity.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Beep.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Blanket_of_snow.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Blues.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Bounce.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Breeze.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Calm.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Chase.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Climber.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Cloud.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Cloudscape.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Cyclotron.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Dawn.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Distinct.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Dream.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Drizzling.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Dynamic.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Eager.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Ebullition.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Echo.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Expect.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Fanatical.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Far_away.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/First_rays.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Fluttering.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Flyer.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Forest_morning.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Friendship.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Funky.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Good_energy.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Guitar.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Harping.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Highlight.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Idyl.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Innocence.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Interesting.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Jazz_life.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Journey.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Joyous.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Lazy.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Leisurely.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Lotus_by_moonlight.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Marimba.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Meditation.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Memory.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Mystical.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Nature.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Night_sky.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Old_telephone.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/OnePlus_new_feeling.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/OnePlus_tune.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/OnePlus_tune_rhythm.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Optimistic.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Piano.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Rainforest.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Relieved.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Ripple.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Shimmer.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Slowly.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Snow_falling.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Spring.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Stars.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Summer_beach.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Summer_night.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Sun_glittering.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Sunlight_on_snow.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Sunrise.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Sunset.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Surging.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Tactfully.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/The_wind.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Tranquil.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Twinkling_stars.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Verdant_lotus_pond.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Waking_city.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Walking_in_the_rain.ogg
++my_product/res/audio/haptic_ringtone/output174HZ/ringtones/Whirl.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/A_gust_of_wind.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Allay.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Allusion.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Amiable.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Blare.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Blink.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Blissful.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Brisk.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Bubble.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Cheerful.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Clear.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Clouds.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Comely.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Cozy.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Crystal.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Dew_on_the_bamboo.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Ding.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Dragonfly.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Droplets.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Effervesce.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Elegant.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Fairy_realm.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Free.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Full_moon.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Glistening.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Hallucination.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Inbound.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Light.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Meet.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Naivety.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Quickly.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Raindrop.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Reverberation.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Rhythm.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Serenity.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Shooting_star.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Slipping.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Sliver_of_light.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Snowflake.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Snow_underfoot.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Splash.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Surprise.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Twinkle.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Warming_sun.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Whoop_doop.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/notifications/Wind_chime.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Alacrity.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Alarm_clock.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Amenity.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Beep.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Blanket_of_snow.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Blues.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Bounce.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Breeze.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Calm.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Chase.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Climber.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Cloud.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Cloudscape.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Cyclotron.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Dawn.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Distinct.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Dream.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Drizzling.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Dynamic.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Eager.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Ebullition.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Echo.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Expect.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Fanatical.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Far_away.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/First_rays.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Fluttering.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Flyer.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Forest_morning.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Friendship.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Funky.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Good_energy.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Guitar.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Harping.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Highlight.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Idyl.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Innocence.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Interesting.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Jazz_life.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Journey.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Joyous.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Lazy.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Leisurely.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Lotus_by_moonlight.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Marimba.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Meditation.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Memory.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Mystical.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Nature.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Night_sky.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Old_telephone.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/OnePlus_new_feeling.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/OnePlus_tune.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/OnePlus_tune_rhythm.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Optimistic.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Piano.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Rainforest.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Relieved.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Ripple.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Shimmer.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Slowly.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Snow_falling.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Spring.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Stars.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Summer_beach.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Summer_night.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Sun_glittering.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Sunlight_on_snow.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Sunrise.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Sunset.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Surging.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Tactfully.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/The_wind.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Tranquil.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Twinkling_stars.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Verdant_lotus_pond.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Waking_city.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Walking_in_the_rain.ogg
++my_product/res/audio/haptic_ringtone/output178HZ/ringtones/Whirl.ogg
++my_product/vendor/etc/display_apollo_list_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
+ my_product/vendor/etc/display_brightness_app_list.xml
+-my_product/vendor/etc/display_brightness_config_samsung1024.xml
++my_product/vendor/etc/display_brightness_config_P_3.xml
+ my_product/vendor/etc/multimedia_display_feature_config.xml
++my_product/vendor/etc/p_3_a0004_sensor_lock.xml
+ my_region/apkcerts.txt
+ my_region/applist/applist.txt
+ my_region/build.prop
+-my_region/etc/extension/1487_Movistar-CO/carrierReady/com.oplus.app-features.xml
+-my_region/etc/extension/1488_Tigo-CO/carrierReady/com.oplus.app-features.xml
+-my_region/etc/extension/1490_Avantel/carrierReady/com.oplus.app-features.xml
+-my_region/etc/extension/1491_Claro-CO/carrierReady/com.oplus.app-features.xml
+-my_region/etc/extension/1492_WOM/carrierReady/com.oplus.app-features.xml
++my_region/etc/cellular_network_config.xml
++my_region/etc/config/app_v2.xml
+ my_region/etc/extension/com.oplus.app-features.xml
+ my_region/etc/extension/com.oplus.oplus-feature.xml
+ my_region/etc/NOTICE.xml.gz
+ my_region/etc/oplus_carrier_config.xml
+ my_region/etc/permissions/com.oplus.android-features.xml
++my_region/etc/permissions/opluscallrecorder_privapp_permissions.xml
+ my_region/etc/startup/blacklist_default.xml
+ my_region/etc/startup/safe_boot_whitelist.xml
+ my_region/etc/startup/sys_startupmanager_config_list.xml
+@@ -2367,6 +2240,7 @@ my_region/global/etc/extension/1024S1Euskaltel_Yoigo/carrierReady/com.oplus.app-
+ my_region/global/etc/extension/1024S2Lycamobile_Yoigo/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1024_Yoigo/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1026_Digi-ES/carrierReady/com.oplus.app-features.xml
++my_region/global/etc/extension/1026_Digi-ES/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1027_Bouygues/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1027_Bouygues/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1028S1LaPoste_SFR/carrierReady/oplus_carrier_config.xml
+@@ -2601,6 +2475,7 @@ my_region/global/etc/extension/1285_Telkom/carrierReady/com.oplus.app-features.x
+ my_region/global/etc/extension/1285_Telkom/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1286_Vodacom-ZA/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1286_Vodacom-ZA/carrierReady/oplus_carrier_config.xml
++my_region/global/etc/extension/1287_CellC/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1293_Partner/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1294_Pelephone/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1294_Pelephone/carrierReady/oplus_carrier_config.xml
+@@ -2653,6 +2528,7 @@ my_region/global/etc/extension/1363_Spark/carrierReady/com.oplus.app-features.xm
+ my_region/global/etc/extension/1363_Spark/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1364_Skinny/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1364_Skinny/carrierReady/oplus_carrier_config.xml
++my_region/global/etc/extension/1365_Truphone-AU/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1366_One/carrierReady/com.oplus.app-features.xml
+ my_region/global/etc/extension/1366_One/carrierReady/oplus_carrier_config.xml
+ my_region/global/etc/extension/1367_EE/carrierReady/com.oplus.app-features.xml
+@@ -2954,6 +2830,7 @@ my_region/global/R/etc/extension/1221_Airtel/carrierReady/oplus_carrier_config.x
+ my_region/global/R/etc/extension/1224_BSNL/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1225_ATOM/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1226_MyTel/carrierReady/oplus_carrier_config.xml
++my_region/global/R/etc/extension/1228_Ooredoo/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1229_Dialog/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1230_Mobitel/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1231_Airtel/carrierReady/oplus_carrier_config.xml
+@@ -2967,6 +2844,7 @@ my_region/global/R/etc/extension/1241_Zong/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1242_Telenor/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1243_Jazz/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1244_Warid/carrierReady/oplus_carrier_config.xml
++my_region/global/R/etc/extension/1245_Ufone/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1249_Etisalat/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1250_Du/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1251_Virgin/carrierReady/oplus_carrier_config.xml
+@@ -3045,6 +2923,7 @@ my_region/global/R/etc/extension/1394_Telekom-RO/carrierReady/oplus_carrier_conf
+ my_region/global/R/etc/extension/1395_Motiv/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1396S1Tele2_T-Mobile-NL/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1396_T-Mobile-NL/carrierReady/oplus_carrier_config.xml
++my_region/global/R/etc/extension/1397_T-Mobile-PL/carrierReady/com.oplus.app-features.xml
+ my_region/global/R/etc/extension/1397_T-Mobile-PL/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1400_Turkcell/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1401_Telekom-DE/carrierReady/oplus_carrier_config.xml
+@@ -3088,6 +2967,7 @@ my_region/global/R/etc/extension/1499_Claro/carrierReady/oplus_carrier_config.xm
+ my_region/global/R/etc/extension/1500_Vivo/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1504_Claro-BR/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1513_Claro/carrierReady/oplus_carrier_config.xml
++my_region/global/R/etc/extension/1514_Movistar-AR/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1523_Movistar-UY/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1526_Vodafone-AU/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1531_Vodafone-NL/carrierReady/oplus_carrier_config.xml
+@@ -3106,6 +2986,9 @@ my_region/global/R/etc/extension/1617_VEE/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1619_T2/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1625_Redbull/carrierReady/oplus_carrier_config.xml
+ my_region/global/R/etc/extension/1644_Jambotel/carrierReady/oplus_carrier_config.xml
++my_region/global/R/etc/extension/com.oplus.app-features.xml
++my_region/priv-app/OplusCallRecorder/oat/arm64/OplusCallRecorder.vdex
++my_region/priv-app/OplusCallRecorder/OplusCallRecorder.apk
+ my_stock/apkcerts.txt
+ my_stock/app/AIUnit/AIUnit.apk
+ my_stock/app/AIUnit/lib/arm64/libaiunit_sdk_core.so
+@@ -3131,6 +3014,8 @@ my_stock/app/FileEncryption/FileEncryption.apk
+ my_stock/app/FileEncryption/oat/arm64/FileEncryption.vdex
+ my_stock/app/FileManager/FileManager.apk
+ my_stock/app/FileManager/oat/arm64/FileManager.vdex
++my_stock/app/FloatAssistant/FloatAssistant.apk
++my_stock/app/FloatAssistant/oat/arm64/FloatAssistant.vdex
+ my_stock/app/HealthCheck/HealthCheck.apk
+ my_stock/app/HealthCheck/oat/arm64/HealthCheck.vdex
+ my_stock/applist/applist.txt
+@@ -3198,8 +3083,7 @@ my_stock/etc/extension/com.oplus.oplus-feature.xml
+ my_stock/etc/extension/config_clear_settings_provider_key_settings_app_op.xml
+ my_stock/etc/extension/config_clear_settings_provider_key_third_app_op.xml
+ my_stock/etc/extension/config_processor_com.android.settings.xml
+-my_stock/etc/extension/feature_aod.xml
+-my_stock/etc/extension/feature_uxdesign.xml
++my_stock/etc/extension/feature_op_uxdesign.xml
+ my_stock/etc/extension/sys_activity_preload_config_list.xml
+ my_stock/etc/extension/sys_osense_appmng_decisionmaker_config.xml
+ my_stock/etc/extension/sys_osense_cpu_decisionmaker_config.xml
+@@ -3253,7 +3137,6 @@ my_stock/media/theme/uxicons/xhdpi/com.android.settings/recbg.png
+ my_stock/media/theme/uxicons/xhdpi/com.android.settings/recfg.png
+ my_stock/media/theme/uxicons/xhdpi/com.android.stk/mat.png
+ my_stock/media/theme/uxicons/xhdpi/com.android.stk/monochrome.png
+-my_stock/media/theme/uxicons/xhdpi/com.android.stk/peb.png
+ my_stock/media/theme/uxicons/xhdpi/com.android.stk/recbg.png
+ my_stock/media/theme/uxicons/xhdpi/com.android.stk/recfg.png
+ my_stock/media/theme/uxicons/xhdpi/com.caf.fmradio/mat.png
+@@ -3322,11 +3205,7 @@ my_stock/media/theme/uxicons/xhdpi/com.oneplus.backuprestore/monochrome.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.backuprestore/peb.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.backuprestore/recbg.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.backuprestore/recfg.png
+-my_stock/media/theme/uxicons/xhdpi/com.oneplus.brickmode/mat.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.brickmode/monochrome.png
+-my_stock/media/theme/uxicons/xhdpi/com.oneplus.brickmode/peb.png
+-my_stock/media/theme/uxicons/xhdpi/com.oneplus.brickmode/recbg.png
+-my_stock/media/theme/uxicons/xhdpi/com.oneplus.brickmode/recfg.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.calculator/mat.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.calculator/monochrome.png
+ my_stock/media/theme/uxicons/xhdpi/com.oneplus.calculator/peb.png
+@@ -3536,11 +3415,7 @@ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.backuprestore/monochrome.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.backuprestore/peb.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.backuprestore/recbg.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.backuprestore/recfg.png
+-my_stock/media/theme/uxicons/xxhdpi/com.oneplus.brickmode/mat.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.brickmode/monochrome.png
+-my_stock/media/theme/uxicons/xxhdpi/com.oneplus.brickmode/peb.png
+-my_stock/media/theme/uxicons/xxhdpi/com.oneplus.brickmode/recbg.png
+-my_stock/media/theme/uxicons/xxhdpi/com.oneplus.brickmode/recfg.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.calculator/mat.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.calculator/monochrome.png
+ my_stock/media/theme/uxicons/xxhdpi/com.oneplus.calculator/peb.png
+@@ -3858,8 +3733,12 @@ my_stock/media/theme/uxicons/xxxhdpi/net.oneplus.weather/monochrome.png
+ my_stock/media/theme/uxicons/xxxhdpi/net.oneplus.weather/peb.png
+ my_stock/media/theme/uxicons/xxxhdpi/net.oneplus.weather/recbg.png
+ my_stock/media/theme/uxicons/xxxhdpi/net.oneplus.weather/recfg.png
++my_stock/non_overlay/app/OBrain/OBrain.apk
+ my_stock/priv-app/AccessoryFramework/AccessoryFramework.apk
+ my_stock/priv-app/AccessoryFramework/oat/arm64/AccessoryFramework.vdex
++my_stock/priv-app/ColorfulEngine/ColorfulEngine.apk
++my_stock/priv-app/ColorfulEngine/oat/arm64/ColorfulEngine.vdex
++my_stock/priv-app/ColorfulEngine/oat/arm/ColorfulEngine.vdex
+ my_stock/priv-app/Cota/Cota.apk
+ my_stock/priv-app/Cota/oat/arm64/Cota.vdex
+ my_stock/priv-app/DCS/DCS.apk
+@@ -3914,7 +3793,9 @@ odm/bin/adsp_ssr_test
+ odm/bin/climax
+ odm/bin/commcenterd
+ odm/bin/cwb_utils
++odm/bin/displaycolorfeature_test
+ odm/bin/engineer_vendor_shell.sh
++odm/bin/hw/android.hardware.ir-service
+ odm/bin/hw/android.hardware.power.stats-impl.oplus
+ odm/bin/hw/dolbycodec2
+ odm/bin/hw/dvs-hal-service
+@@ -3930,6 +3811,7 @@ odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service
+ odm/bin/hw/vendor.oplus.hardware.charger-V1-service
+ odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service
++odm/bin/hw/vendor.oplus.hardware.eid@1.0-service
+ odm/bin/hw/vendor-oplus-hardware-engineer-V1-service
+ odm/bin/hw/vendor.oplus.hardware.esim@1.0-service
+ odm/bin/hw/vendor.oplus.hardware.felica@1.0-service
+@@ -3945,6 +3827,7 @@ odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service
+ odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service
+ odm/bin/hw/vendor-oplus-hardware-performance-V1-service
+ odm/bin/hw/vendor-oplus-hardware-power-powermonitor-V1-service
++odm/bin/hw/vendor.oplus.hardware.riskdetect-V1-service
+ odm/bin/hw/vendor.oplus.hardware.rpmh-V1-service
+ odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
+ odm/bin/hw/vendor-oplus-hardware-touch-V2-service
+@@ -3974,7 +3857,6 @@ odm/bin/iwpriv
+ odm/bin/nqnfcinfo
+ odm/bin/occe_create
+ odm/bin/oldc_vnd
+-odm/bin/oplusmediaswcodec
+ odm/bin/oplus_sensor_fb
+ odm/bin/oplus_sensor_ssr
+ odm/bin/oplus_sensor_test
+@@ -3990,13 +3872,13 @@ odm/bin/wifi_diag
+ odm/bin/wififtm
+ odm/bin/wifisar
+ odm/build.prop
+-odm/etc/22861/build.default.prop
+-odm/etc/22861/build.eea.prop
+-odm/etc/22861/build.gsi.prop
+-odm/etc/22861/build.id.prop
+-odm/etc/22861/build.row.prop
+-odm/etc/22861/build.us.prop
+-odm/etc/22861/flags.prop
++odm/etc/23861/build.default.prop
++odm/etc/23861/build.eea.prop
++odm/etc/23861/build.gsi.prop
++odm/etc/23861/build.in.prop
++odm/etc/23861/build.row.prop
++odm/etc/23861/build.us.prop
++odm/etc/23861/flags.prop
+ odm/etc/aac_richtap.config
+ odm/etc/acdbdata/acdb_cal.acdb
+ odm/etc/acdbdata/Audio_Parameter_Version.txt
+@@ -4012,6 +3894,8 @@ odm/etc/bt/btsar.cfg
+ odm/etc/bt/hpnv21_ch1.bin
+ odm/etc/bt/hpnv21g_ch1.bin
+ odm/etc/build.prop
++odm/etc/camera/aiboost_qnn_htp2.3.1_159494848803313195.bin
++odm/etc/camera/aiboost_qnn_htp2.3.1_767789436570576370.bin
+ odm/etc/camera/AiFace.json
+ odm/etc/camera/ancbokehseg/anc_cl_kernel.cache
+ odm/etc/camera/anc_cl_kernel.cache
+@@ -4032,6 +3916,7 @@ odm/etc/camera/CameraHWConfiguration.config
+ odm/etc/camera/capture_bokeh_params.json
+ odm/etc/camera/capture_lutportrait_params.json
+ odm/etc/camera/capture_neonportrait_params.json
++odm/etc/camera/cfr_bin/CFR_imx355.bin
+ odm/etc/camera/cfr_bin/CFR_imx581.bin
+ odm/etc/camera/cfr_bin/CFR_imx709.bin
+ odm/etc/camera/cfr_bin/CFR_imx890.bin
+@@ -4039,18 +3924,16 @@ odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
+ odm/etc/camera/config/camera_third_party_feature_config.protobuf
+ odm/etc/camera/config/camera_unit_config
+ odm/etc/camera/config/camera_unit_feature_config.protobuf
+-odm/etc/camera/config/imx581
+-odm/etc/camera/config/imx709
+-odm/etc/camera/config/imx800
++odm/etc/camera/config/imx355
+ odm/etc/camera/config/imx890
+-odm/etc/camera/config/oem_layer_config
+ odm/etc/camera/config/oplus_camera_algo_switch_config
+ odm/etc/camera/config/oplus_camera_aps_config
+ odm/etc/camera/config/oplus_camera_config
+ odm/etc/camera/config/oplus_camera_preview_decision_config.json
+ odm/etc/camera/config/oplus_preview_decision_params.json
++odm/etc/camera/config/ov02b
++odm/etc/camera/config/pickref_params.xml
+ odm/etc/camera/config/s5k3p9
+-odm/etc/camera/config/s5kjn1sq03
+ odm/etc/camera/config/sr_params.xml
+ odm/etc/camera/config/video_beauty_default_config
+ odm/etc/camera/distortionParams.bin
+@@ -4070,7 +3953,7 @@ odm/etc/camera/dng/ToneCurve_imx581_2.txt
+ odm/etc/camera/dng/ToneCurve_imx709_3.txt
+ odm/etc/camera/dng/ToneCurve_imx890_0.txt
+ odm/etc/camera/eis_camera.vcfg
+-odm/etc/camera/facesr_hd_composite_ref_4.1.18_qcom8550_ppl3_ocl.model
++odm/etc/camera/facesr_hd_composite_ff_ref_4.3.17_qcom8550_qnn_segqnn_qnn2.3.5_qualitybin.model
+ odm/etc/camera/fb_default
+ odm/etc/camera/fb_model/000.png
+ odm/etc/camera/fb_model/000_pre.bin
+@@ -4118,12 +4001,15 @@ odm/etc/camera/fb_model/212.png
+ odm/etc/camera/fb_model/212_pre.bin
+ odm/etc/camera/fb_model/213.png
+ odm/etc/camera/fb_model/AIdeblemishSnapMask.bin
++odm/etc/camera/fb_model/AIdeblemishSnapMask.png
+ odm/etc/camera/fb_model/beauty_body.bin
++odm/etc/camera/fb_model/brightLut.bin
+ odm/etc/camera/fb_model/brightLut.png
+ odm/etc/camera/fb_model/DREAM_1_4_1005_838.bin
+ odm/etc/camera/fb_model/DREAM_4_5_354_654.bin
+ odm/etc/camera/fb_model/eyeBright.png
+ odm/etc/camera/fb_model/eye_retouch_chinese.bin
++odm/etc/camera/fb_model/eyesMask.bin
+ odm/etc/camera/fb_model/eyesMaskNew.bin
+ odm/etc/camera/fb_model/eyesMaskNew.png
+ odm/etc/camera/fb_model/eyesMask.png
+@@ -4139,8 +4025,10 @@ odm/etc/camera/fb_model/mouthmask.png
+ odm/etc/camera/fb_model/NEWYEAR_1_4_1005_838.bin
+ odm/etc/camera/fb_model/ORANGE_CRUSH_1_4_1005_838.bin
+ odm/etc/camera/fb_model/PEACH_PINK_1_4_1005_838.bin
++odm/etc/camera/fb_model/preSkinmask137.bin
+ odm/etc/camera/fb_model/preSkinmask137.png
+ odm/etc/camera/fb_model/preSkinmask296.png
++odm/etc/camera/fb_model/redToneLut.bin
+ odm/etc/camera/fb_model/redToneLut.png
+ odm/etc/camera/fb_model/RED_VELVET_1_4_1005_838.bin
+ odm/etc/camera/fb_model/ROSE_NUDE_1_4_1005_838.bin
+@@ -4207,6 +4095,7 @@ odm/etc/camera/fb_model/SNOW_1_4_1005_838.bin
+ odm/etc/camera/fb_model/SNOW_4_4_354_654.bin
+ odm/etc/camera/fb_model/unify_skin_base.bin
+ odm/etc/camera/fb_model/UNIQUE_EYES_1_4_1005_838.bin
++odm/etc/camera/fb_model/whiteToneLut.bin
+ odm/etc/camera/fb_model/whiteToneLut.png
+ odm/etc/camera/fdc_cl.cache
+ odm/etc/camera/fdc_lite_cl.cache
+@@ -4399,10 +4288,6 @@ odm/etc/camera/pfb_bin/BeardSharp.bin
+ odm/etc/camera/pfb_bin/BeardSharp.frag
+ odm/etc/camera/pfb_bin/BeardSharp.vert
+ odm/etc/camera/pfb_bin/PreAddSRBinary.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin
+-odm/etc/camera/pfb_bin/PreBilaFilterMixByFaceTargetBinary.bin
+ odm/etc/camera/pfb_bin/PreCalcSRBinary.bin
+ odm/etc/camera/pfb_bin/PreCalculateOutTex.bin
+ odm/etc/camera/pfb_bin/PreCalVarBinary.bin
+@@ -4669,6 +4554,7 @@ odm/etc/camera/pf/PerfectColorSet/portrait/param9.ini
+ odm/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini
+ odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini
+ odm/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt
++odm/etc/camera/qnn_binary_10332766617109390687.bin
+ odm/etc/camera/selfbokehmodel.bin
+ odm/etc/camera/selfbokehParam.json
+ odm/etc/camera/settings_fdc_lite.txt
+@@ -4677,6 +4563,7 @@ odm/etc/camera/singleblur/license_release.license
+ odm/etc/camera/singleblur/personseg.bin
+ odm/etc/camera/singleblur/preview_seg.json
+ odm/etc/camera/spectrum_test_data_golden
++odm/etc/camera/stereoParams.bin
+ odm/etc/camera/sticker/material/animoji/data.zip
+ odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip
+ odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model
+@@ -4709,7 +4596,9 @@ odm/etc/camera/wide.bin
+ odm/etc/charge.cfg
+ odm/etc/custom_power.cfg
+ odm/etc/devices_config/devices_config.json
++odm/etc/devices_config/keyboard_config.json
+ odm/etc/Diag.cfg
++odm/etc/displaycolorfeaturecfg.xml
+ odm/etc/dolby/multimedia_dolby_dax_default.xml
+ odm/etc/dolby_vision.cfg
+ odm/etc/DownloadModeKey/SM8450_C
+@@ -4719,6 +4608,7 @@ odm/etc/gps.cfg
+ odm/etc/gps.conf
+ odm/etc/gps_modem.cfg
+ odm/etc/init/android.hardware.contexthub-service.qmi.rc
++odm/etc/init/android.hardware.ir-service.rc
+ odm/etc/init/android.hardware.power.stats-service.oplus.rc
+ odm/etc/init/commcenterd.rc
+ odm/etc/init/esim@1.0-service.rc
+@@ -4755,6 +4645,7 @@ odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.charger-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
+ odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc
++odm/etc/init/vendor.oplus.hardware.eid@1.0-service.rc
+ odm/etc/init/vendor-oplus-hardware-engineer-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.felica@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.fido.fido2ca@1.0-service.rc
+@@ -4768,6 +4659,7 @@ odm/etc/init/vendor.oplus.hardware.olc2-V1-service.rc
+ odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc
+ odm/etc/init/vendor-oplus-hardware-performance-V1-service.rc
+ odm/etc/init/vendor-oplus-hardware-power-powermonitor-V1-service.rc
++odm/etc/init/vendor.oplus.hardware.riskdetect-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.rpmh-V1-service.rc
+ odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
+ odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
+@@ -4775,115 +4667,39 @@ odm/etc/init/vendor-oplus-hardware-transfer@1.0-service.rc
+ odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc
+ odm/etc/init/vendor.oplus.hardware.urcc-service.rc
+ odm/etc/init/vendor.oplus.hardware.wifi-aidl-service-qcom.rc
+-odm/etc/init/vendor.oplus.media.c2-service.rc
+ odm/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service-lazy.rc
+ odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
+ odm/etc/init/vendor.qti.secure_element@1.2-service.rc
+ odm/etc/init/virtualcameraprovider.rc
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/iris7_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel/mcfCheck.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm14.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm17.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm22.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm23.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm26.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm29.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2_Def.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm2.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm32.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm5.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/inParm8.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/mcfCheck_low.txt
+-odm/etc/inparm/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel/mcfCheck.txt
++odm/etc/inparm/iris7_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm14.txt
++odm/etc/inparm/iris7_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm17.txt
++odm/etc/inparm/iris7_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm23.txt
++odm/etc/inparm/iris7_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm2.txt
++odm/etc/inparm/iris7_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm5.txt
++odm/etc/inparm/iris7_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm8.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm14_2nit.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm14_low.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm14.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm17_2nit.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm17_low.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm17.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm22.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm23.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm2.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm5_2nit.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm5_low.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm5.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/inParm8.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/mcfCheck_2nit.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/mcfCheck_low.txt
++odm/etc/inparm/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel/mcfCheck.txt
+ odm/etc/iris_configs.xml
+-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF07_CS_dsc_cmd_mode_panel.xml
+-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF07_FS_dsc_cmd_mode_panel.xml
+-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF08_CS_dsc_cmd_mode_panel.xml
+-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.dat
+-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.fw
+-odm/etc/irissoft_samsung_AMB670YF08_FS_dsc_cmd_mode_panel.xml
++odm/etc/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel.dat
++odm/etc/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel.fw
++odm/etc/irissoft_AA551_P_3_A0004_dsc_cmd_mode_panel.xml
+ odm/etc/izat.conf
+-odm/etc/kernelfilter.filter
+ odm/etc/libnfc-nci.conf
++odm/etc/lra_model_0.conf
+ odm/etc/lvacfs_params/2mic/audiozoom_10.txt
+ odm/etc/lvacfs_params/2mic/audiozoom_11.txt
+ odm/etc/lvacfs_params/2mic/audiozoom_12.txt
+@@ -4939,9 +4755,6 @@ odm/etc/lvacfs_params/2mic/LVACFS_Parameter_ID9_MIC_Voice.txt
+ odm/etc/media_codecs_c2_dolby_audio.xml
+ odm/etc/media_codecs_c2.xml
+ odm/etc/media_codecs_dolby_vision.xml
+-odm/etc/media_codecs_ffmpeg.xml
+-odm/etc/media_codecs_odm.xml
+-odm/etc/media_codecs_oplus_c2.xml
+ odm/etc/media_codecs_vendor_oplus.xml
+ odm/etc/media_profiles_V1_0.xml
+ odm/etc/mixer_paths.xml
+@@ -5187,14 +5000,38 @@ odm/etc/nfc/st21nfc_fw.bin_st21h
+ odm/etc/normalize/flags.prop
+ odm/etc/NOTICE.xml.gz
+ odm/etc/oplus.fstab
+-odm/etc/orms/orms_core_config_india.xml
++odm/etc/oplusmetaaudio/HP_MOVIE_ANALOG.bin
++odm/etc/oplusmetaaudio/HP_MOVIE_BLUETOOTH.bin
++odm/etc/oplusmetaaudio/HP_MOVIE_DIGITAL.bin
++odm/etc/oplusmetaaudio/HP_MOVIE_GALILEO.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin
++odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl10.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl1.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl2.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl3.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl4.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl5.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl6.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl7.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl8.bin
++odm/etc/oplusmetaaudio/SPK_MOVIE_lvl9.bin
+ odm/etc/orms/orms_core_config.xml
++odm/etc/p_3_a0004_backlight_data.xml
++odm/etc/p_3_a0004_cinema_eyeprotect_data.xml
++odm/etc/p_3_a0004_colorful_eyeprotect_data.xml
++odm/etc/p_3_a0004_eyeprotect_data.xml
++odm/etc/p_3_a0004_srgb_eyeprotect_data.xml
++odm/etc/permissions/android.hardware.consumerir.xml
+ odm/etc/permissions/android.hardware.context_hub.xml
++odm/etc/permissions/android.hardware.nfc.uicc.xml
+ odm/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
+-odm/etc/permissions/android.hardware.sensor.light.xml
+ odm/etc/permissions/com.oplus.features_power.xml
+ odm/etc/permissions/com.oplus.nfc_feature.xml
+-odm/etc/permissions/sku_31/android.hardware.sensor.barometer.xml
++odm/etc/permissions/oplus.fingerprint.unlock_without_icon.xml
++odm/etc/permissions/sku_15/android.hardware.sensor.barometer.xml
+ odm/etc/permissions/vendor-oplus-hardware-biometrics-fido2.xml
+ odm/etc/permissions/vendor-oplus-hardware-biometrics-fido.xml
+ odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml
+@@ -5204,6 +5041,7 @@ odm/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml
+ odm/etc/permissions/vendor-oplus-hardware-engineer-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-misc-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-oplusSensor-V1.xml
++odm/etc/permissions/vendor-oplus-hardware-riskdetect.xml
+ odm/etc/permissions/vendor.oplus.hardware.rpmh-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-stability-oproject-V1.xml
+ odm/etc/permissions/vendor-oplus-hardware-touch-V1.xml
+@@ -5214,31 +5052,14 @@ odm/etc/power_profile/power_profile.xml
+ odm/etc/power_stats_config.xml
+ odm/etc/QtiFtmPublicKey.pem
+ odm/etc/resourcemanager.xml
+-odm/etc/result_filter.filter
+-odm/etc/rftoolkit/proj_cases_in.xml
+ odm/etc/rftoolkit/proj_cases.xml
+-odm/etc/rftoolkit/proj_param.xml
+ odm/etc/samsung1024_amb655uv01_eyeprotect_data.xml
+ odm/etc/samsung1024_amb655uv01_srgb_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_cinema_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_colorful_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf07_fs_srgb_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_cinema_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_colorful_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_eyeprotect_data.xml
+-odm/etc/samsung1024_amb670yf08_fs_srgb_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+ odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_cinema_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_colorful_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_eyeprotect_data.xml
+-odm/etc/samsung1024_s6e3hc3_srgb_eyeprotect_data.xml
+ odm/etc/sap.conf
+-odm/etc/seccomp_policy/oplusmediaswcodec_ext.policy
+-odm/etc/seccomp_policy/oplusmediaswcodec.policy
+ odm/etc/selinux/precompiled_sepolicy
+ odm/etc/selinux/precompiled_sepolicy_debug
+ odm/etc/selinux/precompiled_sepolicy_debug.plat_sepolicy_and_mapping.sha256
+@@ -5248,29 +5069,110 @@ odm/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256
+ odm/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256
+ odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256
+ odm/etc/sensor.cfg
+-odm/etc/sensor/config/kailua_mtp_ak0991x.json
+-odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3701.json
++odm/etc/sensor/config/aston_qrd_ois_system.json
++odm/etc/sensor/config/kailua_mtp_alsps_hw_tcs3720.json
+ odm/etc/sensor/config/kailua_mtp_alsps.json
+ odm/etc/sensor/config/kailua_mtp_bmi26x.json
+ odm/etc/sensor/config/kailua_mtp_bmp380.json
+ odm/etc/sensor/config/kailua_mtp_cct_rear.json
+ odm/etc/sensor/config/kailua_mtp_freefall.json
+-odm/etc/sensor/config/kailua_mtp_icm4x6xx.json
+ odm/etc/sensor/config/kailua_mtp_mmc56x3x.json
+ odm/etc/sensor/config/kailua_mtp_oplus_lay.json
+-odm/etc/sensor/config/kailua_mtp_sx933x_0.json
+-odm/etc/sensor/config/kailua_mtp_sx933x_down_0.json
++odm/etc/sensor/config/kailua_mtp_smart_prox.json
+ odm/etc/sensor/config/lux_aod.json
+-odm/etc/sensor/config/salami_qrd_ois_system.json
+ odm/etc/sensor/sensor_config.json
+-odm/etc/temperature_profile/sys_high_temp_protect_OPPO_22861.xml
++odm/etc/spatializer/HP_MOVIE_ANALOG.bin
++odm/etc/spatializer/HP_MOVIE_BLUETOOTH.bin
++odm/etc/spatializer/HP_MOVIE_DIGITAL.bin
++odm/etc/spatializer/HP_MOVIE_GALILEO.bin
++odm/etc/spatializer/HP_MUSIC_ANALOG.bin
++odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin
++odm/etc/spatializer/HP_MUSIC_DIGITAL.bin
++odm/etc/spatializer/HP_MUSIC_GALILEO.bin
++odm/etc/sys_lom_config_list.xml
++odm/etc/temperature_profile/sys_high_temp_protect_OPPO_23861.xml
+ odm/etc/temperature_profile/sys_thermal_control_config.xml
+ odm/etc/ThermalServiceConfig/sys_thermal_config.xml
+ odm/etc/uah/uahconfig.pb
+ odm/etc/ueventd.reserve.rc
+ odm/etc/usecaseKvManager.xml
+ odm/etc/vendor-oplus-hardware-charger-V1.xml
++odm/etc/vibrator/809/def/effect_100.bin
++odm/etc/vibrator/809/def/effect_101.bin
++odm/etc/vibrator/809/def/effect_102.bin
++odm/etc/vibrator/809/def/effect_103.bin
++odm/etc/vibrator/809/def/effect_104.bin
++odm/etc/vibrator/809/def/effect_105.bin
++odm/etc/vibrator/809/def/effect_106.bin
++odm/etc/vibrator/809/def/effect_107.bin
++odm/etc/vibrator/809/def/effect_108.bin
++odm/etc/vibrator/809/def/effect_109.bin
++odm/etc/vibrator/809/def/effect_10.bin
++odm/etc/vibrator/809/def/effect_110.bin
++odm/etc/vibrator/809/def/effect_111.bin
++odm/etc/vibrator/809/def/effect_112.bin
++odm/etc/vibrator/809/def/effect_118.bin
++odm/etc/vibrator/809/def/effect_11.bin
++odm/etc/vibrator/809/def/effect_122.bin
++odm/etc/vibrator/809/def/effect_12.bin
++odm/etc/vibrator/809/def/effect_13.bin
++odm/etc/vibrator/809/def/effect_14.bin
++odm/etc/vibrator/809/def/effect_170.bin
++odm/etc/vibrator/809/def/effect_1.bin
++odm/etc/vibrator/809/def/effect_2.bin
++odm/etc/vibrator/809/def/effect_302.bin
++odm/etc/vibrator/809/def/effect_303.bin
++odm/etc/vibrator/809/def/effect_304.bin
++odm/etc/vibrator/809/def/effect_305.bin
++odm/etc/vibrator/809/def/effect_308.bin
++odm/etc/vibrator/809/def/effect_365.bin
++odm/etc/vibrator/809/def/effect_3.bin
++odm/etc/vibrator/809/def/effect_41.bin
++odm/etc/vibrator/809/def/effect_42.bin
++odm/etc/vibrator/809/def/effect_43.bin
++odm/etc/vibrator/809/def/effect_44.bin
++odm/etc/vibrator/809/def/effect_45.bin
++odm/etc/vibrator/809/def/effect_46.bin
++odm/etc/vibrator/809/def/effect_47.bin
++odm/etc/vibrator/809/def/effect_4.bin
++odm/etc/vibrator/809/def/effect_51.bin
++odm/etc/vibrator/809/def/effect_52.bin
++odm/etc/vibrator/809/def/effect_53.bin
++odm/etc/vibrator/809/def/effect_54.bin
++odm/etc/vibrator/809/def/effect_55.bin
++odm/etc/vibrator/809/def/effect_56.bin
++odm/etc/vibrator/809/def/effect_59.bin
++odm/etc/vibrator/809/def/effect_5.bin
++odm/etc/vibrator/809/def/effect_60.bin
++odm/etc/vibrator/809/def/effect_61.bin
++odm/etc/vibrator/809/def/effect_62.bin
++odm/etc/vibrator/809/def/effect_63.bin
++odm/etc/vibrator/809/def/effect_64.bin
++odm/etc/vibrator/809/def/effect_65.bin
++odm/etc/vibrator/809/def/effect_66.bin
++odm/etc/vibrator/809/def/effect_67.bin
++odm/etc/vibrator/809/def/effect_68.bin
++odm/etc/vibrator/809/def/effect_69.bin
++odm/etc/vibrator/809/def/effect_6.bin
++odm/etc/vibrator/809/def/effect_7.bin
++odm/etc/vibrator/809/def/effect_8.bin
++odm/etc/vibrator/809/def/effect_9.bin
++odm/etc/vibrator/809/soft/effect_105.bin
++odm/etc/vibrator/809/soft/effect_106.bin
++odm/etc/vibrator/809/soft/effect_107.bin
++odm/etc/vibrator/809/soft/effect_109.bin
++odm/etc/vibrator/809/soft/effect_1.bin
++odm/etc/vibrator/809/soft/effect_2.bin
++odm/etc/vibrator/809/soft/effect_3.bin
++odm/etc/vibrator/809/soft/effect_46.bin
++odm/etc/vibrator/809/soft/effect_47.bin
++odm/etc/vibrator/809/soft/effect_4.bin
++odm/etc/vibrator/809/soft/effect_54.bin
++odm/etc/vibrator/809/soft/effect_6.bin
++odm/etc/vibrator/809/soft/effect_7.bin
++odm/etc/vibrator/vibrator_effect.json
+ odm/etc/vintf/manifest/android.hardware.contexthub-service.qmi.xml
++odm/etc/vintf/manifest/android.hardware.ir-service.xml
+ odm/etc/vintf/manifest/android.hardware.power.stats.IPowerStats.xml
+ odm/etc/vintf/manifest/android.hardware.power.stats-service.oplus.xml
+ odm/etc/vintf/manifest/binaural_record.xml
+@@ -5278,6 +5180,7 @@ odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml
+ odm/etc/vintf/manifest/device_manifest_subsys_radio.xml
+ odm/etc/vintf/manifest/device_manifest_subsys.xml
+ odm/etc/vintf/manifest_dsds.xml
++odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
+ odm/etc/vintf/manifest/manifest_engineer_aidl.xml
+ odm/etc/vintf/manifest/manifest_misc_aidl.xml
+ odm/etc/vintf/manifest/manifest_nfc_sn100t.xml
+@@ -5287,6 +5190,7 @@ odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
+ odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml
+ odm/etc/vintf/manifest/manifest_oplus_cwb.xml
+ odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature.xml
++odm/etc/vintf/manifest/manifest_oplus_eid.xml
+ odm/etc/vintf/manifest/manifest_oplus_esim.xml
+ odm/etc/vintf/manifest/manifest_oplus_face.xml
+ odm/etc/vintf/manifest/manifest_oplus_felica.xml
+@@ -5298,6 +5202,7 @@ odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
+ odm/etc/vintf/manifest/manifest_oplus_mmdisplayfeature.xml
+ odm/etc/vintf/manifest/manifest_oplus_nfc_aidl.xml
+ odm/etc/vintf/manifest/manifest_oplus_nfcExtns.xml
++odm/etc/vintf/manifest/manifest_oplus_riskdetect.xml
+ odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
+ odm/etc/vintf/manifest/manifest_oplusSensor_aidl.xml
+ odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
+@@ -5325,6 +5230,37 @@ odm/etc/vintf/telephony_manifest_dsds.xml
+ odm/etc/vintf/telephony_manifest_ssss.xml
+ odm/etc/virtual_audio_policy_configuration.xml
+ odm/etc/virtualcamera.json
++odm/etc/wave_lib/F0/wave_he_short_f0_162_0.bin
++odm/etc/wave_lib/F0/wave_he_short_f0_162_1.bin
++odm/etc/wave_lib/F0/wave_he_short_f0_162_2.bin
++odm/etc/wave_lib/F0/wave_he_short_f0_162_3.bin
++odm/etc/wave_lib/F0/wave_he_short_f0_162_4.bin
++odm/etc/wave_lib/F0/WAVE_MMAP.txt
++odm/etc/wave_lib/F1/wave_he_short_f0_166_0.bin
++odm/etc/wave_lib/F1/wave_he_short_f0_166_1.bin
++odm/etc/wave_lib/F1/wave_he_short_f0_166_2.bin
++odm/etc/wave_lib/F1/wave_he_short_f0_166_3.bin
++odm/etc/wave_lib/F1/wave_he_short_f0_166_4.bin
++odm/etc/wave_lib/F1/WAVE_MMAP.txt
++odm/etc/wave_lib/F2/wave_he_short_f0_170_0.bin
++odm/etc/wave_lib/F2/wave_he_short_f0_170_1.bin
++odm/etc/wave_lib/F2/wave_he_short_f0_170_2.bin
++odm/etc/wave_lib/F2/wave_he_short_f0_170_3.bin
++odm/etc/wave_lib/F2/wave_he_short_f0_170_4.bin
++odm/etc/wave_lib/F2/WAVE_MMAP.txt
++odm/etc/wave_lib/F3/wave_he_short_f0_174_0.bin
++odm/etc/wave_lib/F3/wave_he_short_f0_174_1.bin
++odm/etc/wave_lib/F3/wave_he_short_f0_174_2.bin
++odm/etc/wave_lib/F3/wave_he_short_f0_174_3.bin
++odm/etc/wave_lib/F3/wave_he_short_f0_174_4.bin
++odm/etc/wave_lib/F3/WAVE_MMAP.txt
++odm/etc/wave_lib/F4/wave_he_short_f0_178_0.bin
++odm/etc/wave_lib/F4/wave_he_short_f0_178_1.bin
++odm/etc/wave_lib/F4/wave_he_short_f0_178_2.bin
++odm/etc/wave_lib/F4/wave_he_short_f0_178_3.bin
++odm/etc/wave_lib/F4/wave_he_short_f0_178_4.bin
++odm/etc/wave_lib/F4/WAVE_MMAP.txt
++odm/etc/wave_lib/F_MMAP.txt
+ odm/etc/wifi/bdwlan.elf
+ odm/etc/wifi/bdwlang.elf
+ odm/etc/wifi/bin_version
+@@ -5332,8 +5268,7 @@ odm/etc/wifi.cfg
+ odm/etc/wifi/cnss_diag_always_on.conf
+ odm/etc/wifi/cnss_diag.conf
+ odm/etc/wifi/kiwi/bdwlan.b0a
+-odm/etc/wifi/kiwi/bdwlan.b0e
+-odm/etc/wifi/kiwi/bdwlan.b0i
++odm/etc/wifi/kiwi/bdwlan.b0ie
+ odm/etc/wifi/kiwi/bdwlan.elf
+ odm/etc/wifi/kiwi/regdb.bin
+ odm/etc/wifi/kiwi/regdb_version
+@@ -5341,10 +5276,17 @@ odm/etc/wifi/regdb.bin
+ odm/etc/wifi/regdb_version
+ odm/etc/wifi/sar-vendor-cmd.xml
+ odm/etc/wifi/wifisar.cfg
+-odm/firmware/fastchg/22861/bms_heating_config.txt
+-odm/firmware/fastchg/22861/charging_hyper_mode_config.txt
+-odm/firmware/fastchg/22861/charging_thermal_config_default.txt
++odm/firmware/fastchg/23861/charging_hyper_mode_config.txt
++odm/firmware/fastchg/bms_heating_config.txt
++odm/firmware/fastchg/charge_time_config.csv
++odm/firmware/fastchg/charging_thermal_config_default.txt
+ odm/firmware/fastchg/smart_chg_config_table.txt
++odm/firmware/iris7p_ccf1.fw
++odm/firmware/iris7p_ccf2.fw
++odm/firmware/iris7p_ccf3.fw
++odm/firmware/iris7p.fw
++odm/firmware/pxlw_i7p_panel_AA551_P_3_A0004_dsc_cmd.fw
++odm/firmware/pxlw_i7p_vtdr6130_fhd_plus_vid.fw
+ odm/firmware/tfa98xx.cnt
+ odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img
+ odm/firmware/tp/19815/FW_S3908_SAMSUNG.img
+@@ -5431,12 +5373,15 @@ odm/firmware/tp/23801/LIMIT_S3910_TIANMA.img
+ odm/firmware/tp/23801/sys_edge_touch_config.xml
+ odm/firmware/tp/23801/sys_touch_algo_feature_config.xml
+ odm/firmware/tp/23801/sys_touch_function_feature_config.xml
++odm/firmware/ufs/MICRON-MT001TAYAX8U40.bin
++odm/firmware/ufs/MICRON-MT128GBCAV2U31.bin
+ odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh
+-odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
++odm/firmware/ufs/SAMSUNG-KLUEG4RHGB-B0E1.bin
+ odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin
+-odm/firmware/ufs/SAMSUNG-KLUEG8UHDC-B0E1.bin
+-odm/firmware/ufs/SAMSUNG-KLUFG8RHDB-B0E1.bin
+ odm/firmware/ufs/SAMSUNG-KLUFG8RHHD-B0G1.bin
++odm/firmware/ufs/SAMSUNG-KLUGGARHHD-B0G1.bin
++odm/firmware/ufs/SKhynix-HN8T274EJKX130.bin
++odm/firmware/ufs/ufs_version_config.xml
+ odm/init.oplus.face.rc
+ odm/init.oplus.fingerprints.rc
+ odm/init.oplus.seccommon.rc
+@@ -5483,28 +5428,28 @@ odm/lib64/c2.dolby.client.so
+ odm/lib64/c2.dolby.hevc.dec.so
+ odm/lib64/c2.dolby.hevc.sec.dec.so
+ odm/lib64/c2.dolby.store.so
++odm/lib64/camera/awb_parameter_default.bin
++odm/lib64/camera/awb_parameter_imx355_sunny.bin
++odm/lib64/camera/awb_parameter_qtech_imx890.bin
++odm/lib64/camera/awb_parameter_shine_ov02b.bin
++odm/lib64/camera/awb_parameter_sunny_s5k3p9.bin
+ odm/lib64/camera/components/com.oplus.node.preview.so
+ odm/lib64/camera/components/com.oplus.node.sstabdefer.so
+ odm/lib64/camera/components/com.oplus.node.sstabgme.so
+ odm/lib64/camera/components/com.oplus.node.sstabphoto.so
+ odm/lib64/camera/components/com.oplus.node.sstabrealt.so
+ odm/lib64/camera/components/com.oplus.node.videoenhance.so
+-odm/lib64/camera/components/com.oplus.stats.aec.so
+-odm/lib64/camera/components/com.oplus.stats.af.so
+-odm/lib64/camera/components/com.oplus.stats.awb.so
+-odm/lib64/camera/components/com.oplus.stats.pdlib.so
+-odm/lib64/camera/com.qti.sensor.imx581.so
+-odm/lib64/camera/com.qti.sensor.imx709.so
+-odm/lib64/camera/com.qti.sensor.imx800.so
++odm/lib64/camera/com.qti.sensor.imx355.so
+ odm/lib64/camera/com.qti.sensor.imx890.so
+-odm/lib64/camera/com.qti.sensormodule.qtech_imx581.bin
+-odm/lib64/camera/com.qti.sensormodule.qtech_imx709.bin
+ odm/lib64/camera/com.qti.sensormodule.qtech_imx890.bin
++odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
++odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin
+ odm/lib64/camera/com.qti.sensormodule.sunny_s5k3p9.bin
++odm/lib64/camera/com.qti.sensor.ov02b.so
+ odm/lib64/camera/com.qti.sensor.s5k3p9.so
+-odm/lib64/camera/com.qti.tuned.qtech_imx581.bin
+-odm/lib64/camera/com.qti.tuned.qtech_imx709.bin
++odm/lib64/camera/com.qti.tuned.imx355_sunny.bin
+ odm/lib64/camera/com.qti.tuned.qtech_imx890.bin
++odm/lib64/camera/com.qti.tuned.shine_ov02b.bin
+ odm/lib64/camera/com.qti.tuned.sunny_s5k3p9.bin
+ odm/lib64/camera.device@3.2-impl.so
+ odm/lib64/camera.device@3.3-impl.so
+@@ -5516,16 +5461,16 @@ odm/lib64/camera/libaecCustomParam_Cam0.bin
+ odm/lib64/camera/libaecCustomParam_Cam1.bin
+ odm/lib64/camera/libaecCustomParam_Cam2.bin
+ odm/lib64/camera/libaecCustomParam_Cam3.bin
+-odm/lib64/camera/libafCustomParamFrontMain.bin
+-odm/lib64/camera/libafCustomParamMain.bin
+-odm/lib64/camera/libafCustomParamTele.bin
+-odm/lib64/camera/libafCustomParamWide.bin
++odm/lib64/camera/libafCustomParam_Cam0.bin
++odm/lib64/camera/libpdCustomParam_Cam0.bin
+ odm/lib64/camera/revision.txt
+ odm/lib64/hw/audio.binaural_record.default.so
+ odm/lib64/hw/audio.virtual.default.so
+ odm/lib64/hw/camera.oemlayer.so
+ odm/lib64/hw/vendor.oplus.hardware.binaural_record-impl.so
++odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7p.so
+ odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7.so
++odm/lib64/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-si.so
+ odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
+ odm/lib64/jcos_nq_client.so
+ odm/lib64/lib2DSlender.so
+@@ -5534,6 +5479,7 @@ odm/lib64/libaecCustom.so
+ odm/lib64/libafCustomParamParser.so
+ odm/lib64/libAF.so
+ odm/lib64/libaiboost_hexagon.so
++odm/lib64/libaiboost_qnn_external_delegate_te.so
+ odm/lib64/libaiboost_qnn_sr.so
+ odm/lib64/libaiboost.so
+ odm/lib64/libaiboost_sr.so
+@@ -5562,7 +5508,9 @@ odm/lib64/libAncSegMultiSdk.so
+ odm/lib64/libapsexif.so
+ odm/lib64/libapsjpeg.so
+ odm/lib64/libapspng.so
++odm/lib64/libapsultrahdr.so
+ odm/lib64/libapsyuv.so
++odm/lib64/libarc.ion.so
+ odm/lib64/libarcsoft_distortion_correction.so
+ odm/lib64/libarcsoft_dualcam_bokeh_api.so
+ odm/lib64/libarcsoft_dualcam_refocus_left.so
+@@ -5571,7 +5519,9 @@ odm/lib64/libarcsoft_dualcam_refocus_uw.so
+ odm/lib64/libarcsoft_dual_sat.so
+ odm/lib64/libarcsoft_dual_zoomtranslator.so
+ odm/lib64/libarcsoft_eis_wrapper.so
++odm/lib64/libarcsoft_hdr_couple_api.so
+ odm/lib64/libarcsoft_hdr_denoise_api.so
++odm/lib64/libarcsoft_high_dynamic_range_couple.so
+ odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
+ odm/lib64/libarcsoft_high_dynamic_range.so
+ odm/lib64/libarcsoft_high_dynamic_range_v4.so
+@@ -5588,40 +5538,23 @@ odm/lib64/libarcsoft_smart_denoise.so
+ odm/lib64/libarcsoft_smart_denoise_v4.so
+ odm/lib64/libarcsoft_triple_sat.so
+ odm/lib64/libarcsoft_triple_zoomtranslator.so
+-odm/lib64/libarcsoft_turbo_fusion_raw_grf.so
+ odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
+ odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
++odm/lib64/libarcsoft_turbo_hdr_grf.so
+ odm/lib64/libarcsoft_turbo_hdr_raw_front.so
+ odm/lib64/libarcsoft_turbo_hdr_raw.so
+ odm/lib64/libarcsoft_turbo_raw.so
+ odm/lib64/libarcsoft_ultra_high_dynamic_range.so
+ odm/lib64/libarcsoft_videoautozoom.so
+-odm/lib64/libavcodec.so
+-odm/lib64/libavformat.so
+-odm/lib64/libavutil.so
+ odm/lib64/libbinaural_record_session_aidl.so
+ odm/lib64/libBokehPre.so
+-odm/lib64/libc2ffmpegutils.so
+ odm/lib64/libc2filterplugin.so
+ odm/lib64/libcalculator_htp.so
+ odm/lib64/libcalculator.so
+ odm/lib64/libCaptureBokeh.so
+ odm/lib64/libchrome.so
+-odm/lib64/libCipCommon.so
+-odm/lib64/libCipo_awb.so
+-odm/lib64/libCipParameter0.so
+-odm/lib64/libCipParameter1.so
+-odm/lib64/libCipParameter2.so
+-odm/lib64/libCipParameter3.so
+-odm/lib64/libCipParameter4.so
+-odm/lib64/libCipParameter5.so
+-odm/lib64/libCipParameter6.so
+-odm/lib64/libCipParamProcess.so
+-odm/lib64/libcodec2_ffmpegdec_audio.so
+-odm/lib64/libcodec2_ffmpegdec_video.so
+ odm/lib64/libcodec2_hidl@1.0.so
+ odm/lib64/libcodec2_hidl_plugin.so
+-odm/lib64/libcodec2_oplus.so
+ odm/lib64/libcodec2_soft_ac4dec_sp.so
+ odm/lib64/libcodec2_soft_common.so
+ odm/lib64/libcodec2_soft_ddpdec_sp.so
+@@ -5636,10 +5569,10 @@ odm/lib64/libCS.so
+ odm/lib64/libcustomer_halalgovisual.so
+ odm/lib64/libcvface_api.so
+ odm/lib64/libdapparamstorage_sp.so
+-odm/lib64/libdav1d.so.4
+ odm/lib64/libdeccfg_sp.so
+ odm/lib64/libDecoderProcessor.so
+ odm/lib64/libDeVIS.so
++odm/lib64/libdisplaycolorfeature.so
+ odm/lib64/libdisplayhidlapis.so
+ odm/lib64/libdlbdsservice_sp.so
+ odm/lib64/libdlbpreg_sp.so
+@@ -5665,6 +5598,7 @@ odm/lib64/libFDClite.so
+ odm/lib64/libfido2_factory.so
+ odm/lib64/libfido_factory.so
+ odm/lib64/libFilterWrapper.so
++odm/lib64/libHDRDetection.so
+ odm/lib64/libHIS.so
+ odm/lib64/libhwconfigurationutil.so
+ odm/lib64/libhyperlapse.so
+@@ -5674,12 +5608,12 @@ odm/lib64/libImageWarpMask.so
+ odm/lib64/libimgClarityEvaluate.so
+ odm/lib64/lib_lvacfs.so
+ odm/lib64/liblvacfs_wrapper.so
+-odm/lib64/libmedia_opluscodecserviceregistrant.so
+ odm/lib64/libmindroid-app.so
+ odm/lib64/libmindroid-framework.so
+ odm/lib64/libml_util.so
+ odm/lib64/libmpbase.so
+ odm/lib64/libnpu.so
++odm/lib64/libocce3a.so
+ odm/lib64/liboemcrypto.so
+ odm/lib64/libOGLManager.so
+ odm/lib64/libolc_vnd.so
+@@ -5690,10 +5624,12 @@ odm/lib64/libOPAlgoCamAiUnifySkin.so
+ odm/lib64/libOPAlgoCamFaceBeautyCap.so
+ odm/lib64/libOPAlgoCamSinglePortrait.so
+ odm/lib64/liboplusblur_capture_api.so
++odm/lib64/libOPLUSMotionDetection.so
+ odm/lib64/libOplusPDCore.so
+ odm/lib64/libOPLUS_SCPortrait.so
+ odm/lib64/liboplus_service.so
+ odm/lib64/liboplus-uah-client.so
++odm/lib64/libOpo_awb.so
+ odm/lib64/liboptical_zoom_dc.so
+ odm/lib64/liboptical_zoom_vs.so
+ odm/lib64/libormshalclient.so
+@@ -5701,6 +5637,7 @@ odm/lib64/libosenseaidlhalclient.so
+ odm/lib64/libosie_process.so
+ odm/lib64/libosie_stub.so
+ odm/lib64/liboutils.so
++odm/lib64/libpdCustomParamParser.so
+ odm/lib64/libPerfectColor.so
+ odm/lib64/libPerfectlyClearCruxOpt.so
+ odm/lib64/libPlatformValidatorShared.so
+@@ -5708,15 +5645,18 @@ odm/lib64/libpngwrapper.so
+ odm/lib64/libpnscr2_aidl.so
+ odm/lib64/libpnscr2.so
+ odm/lib64/libPolarrRender.so
+-odm/lib64/libportrait_repair_ppl3_ocl.so
++odm/lib64/libportrait_repair_qnn.so
+ odm/lib64/libPreviewDecisionOld.so
+ odm/lib64/libpwiriscalibrate.so
++odm/lib64/libpwirisfeaturehal.so
+ odm/lib64/libpwirisfeature.so
+ odm/lib64/libpwirishalwrapper.so
+ odm/lib64/libpwirisIoctlWrapper.so
+ odm/lib64/libpwirisPCS.so
+ odm/lib64/libpwirispq.so
++odm/lib64/libpwirisservicei7p.so
+ odm/lib64/libpwirisservicei7.so
++odm/lib64/libpwirisservicesi.so
+ odm/lib64/libpwirissoft.so
+ odm/lib64/libpwsoftirisPCS.so
+ odm/lib64/libQnnCpu.so
+@@ -5742,6 +5682,7 @@ odm/lib64/librmsclib1.so
+ odm/lib64/librpmbengclient.so
+ odm/lib64/libsaveshaderbin.so
+ odm/lib64/libSchedAssistExtImpl_vendor.so
++odm/lib64/libsdk_sr_ref.so
+ odm/lib64/libsdk_sr.so
+ odm/lib64/libsecurity_event_dcs.so
+ odm/lib64/libsecurity_event_dcs_vnd.so
+@@ -5768,15 +5709,15 @@ odm/lib64/libsubsys-service.so
+ odm/lib64/libsubsys-utils.so
+ odm/lib64/libSuperRaw.so
+ odm/lib64/libSuperTextWrapper.so
+-odm/lib64/libswresample.so
+-odm/lib64/libswscale.so
+ odm/lib64/libSwYokinScale.so
+ odm/lib64/libtfa98xx.so
+ odm/lib64/libthirdcapability.so
++odm/lib64/libtrace.so
+ odm/lib64/libtriplecam_optical_zoom_control.so
+ odm/lib64/libtriplecam_video_optical_zoom.so
+ odm/lib64/libuahcore.so
+ odm/lib64/libui.so
++odm/lib64/libUpScale.so
+ odm/lib64/liburcccore.so
+ odm/lib64/libVDBayerHDR.so
+ odm/lib64/libVDBlurless.so
+@@ -5797,11 +5738,12 @@ odm/lib64/ls_nq_client.so
+ odm/lib64/nfc_nci.nqx.default.hw.so
+ odm/lib64/se_nq_extn_client.so
+ odm/lib64/soundfx/libdlbvol_sp.so
++odm/lib64/soundfx/libOplusSpatializer.so
+ odm/lib64/soundfx/liboplusupmixeffect.so
+ odm/lib64/soundfx/libswdap_sp.so
+ odm/lib64/soundfx/libswgamedap_sp.so
+-odm/lib64/soundfx/libswspatializer.so
+ odm/lib64/sr_models.bin
++odm/lib64/sr_ref_models.bin
+ odm/lib64/vendor.dolby.dvs@1.0.so
+ odm/lib64/vendor.dolby_sp.hardware.dmssp@2.0-impl.so
+ odm/lib64/vendor.dolby_sp.hardware.dmssp@2.0.so
+@@ -5821,8 +5763,9 @@ odm/lib64/vendor.oplus.hardware.communicationcenter-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so
+ odm/lib64/vendor.oplus.hardware.cryptoeng-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.cwb@1.0.so
+-odm/lib64/vendor.oplus.hardware.display.MixLut3D-V1-ndk.so
++odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
++odm/lib64/vendor.oplus.hardware.eid-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.engcamera@1.0.so
+ odm/lib64/vendor.oplus.hardware.engineer-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.esim-V1-ndk.so
+@@ -5847,6 +5790,7 @@ odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.performance-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.power.powermonitor-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.radio@1.0.so
++odm/lib64/vendor.oplus.hardware.riskdetect-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.rpmh-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
+ odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+@@ -5917,14 +5861,9 @@ odm/lib/c2.dolby.client.so
+ odm/lib/c2.dolby.hevc.dec.so
+ odm/lib/c2.dolby.hevc.sec.dec.so
+ odm/lib/c2.dolby.store.so
+-odm/lib/camera/components/com.oplus.stats.aec.so
+-odm/lib/camera/components/com.oplus.stats.af.so
+-odm/lib/camera/components/com.oplus.stats.awb.so
+-odm/lib/camera/components/com.oplus.stats.pdlib.so
+-odm/lib/camera/com.qti.sensor.imx581.so
+-odm/lib/camera/com.qti.sensor.imx709.so
+-odm/lib/camera/com.qti.sensor.imx800.so
++odm/lib/camera/com.qti.sensor.imx355.so
+ odm/lib/camera/com.qti.sensor.imx890.so
++odm/lib/camera/com.qti.sensor.ov02b.so
+ odm/lib/camera/com.qti.sensor.s5k3p9.so
+ odm/lib/camera.device@3.2-impl.so
+ odm/lib/camera.device@3.3-impl.so
+@@ -5932,7 +5871,9 @@ odm/lib/hw/audio.binaural_record.default.so
+ odm/lib/hw/audio.virtual.default.so
+ odm/lib/hw/camera.oemlayer.so
+ odm/lib/hw/vendor.oplus.hardware.binaural_record-impl.so
++odm/lib/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7p.so
+ odm/lib/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-i7.so
++odm/lib/hw/vendor.pixelworks.hardware.display@1.0-impl-1.2-si.so
+ odm/lib/hw/vendor.qti.esepowermanager@1.1-impl.so
+ odm/lib/jcos_nq_client.so
+ odm/lib/lib2DSlender.so
+@@ -5954,6 +5895,7 @@ odm/lib/libAncHumVideoBase.so
+ odm/lib/libapsexif.so
+ odm/lib/libapsjpeg.so
+ odm/lib/libapspng.so
++odm/lib/libapsultrahdr.so
+ odm/lib/libapsyuv.so
+ odm/lib/libarcsoft_distortion_correction.so
+ odm/lib/libarcsoft_hdr_denoise_api.so
+@@ -5962,21 +5904,14 @@ odm/lib/libarcsoft_lensstaindetection.so
+ odm/lib/libarcsoft_low_light_hdr.so
+ odm/lib/libarcsoft_scbokeh_video.so
+ odm/lib/libarcsoft_smart_denoise.so
+-odm/lib/libavcodec.so
+-odm/lib/libavformat.so
+-odm/lib/libavutil.so
+ odm/lib/libbinaural_record_session_aidl.so
+ odm/lib/libBokehPre.so
+-odm/lib/libc2ffmpegutils.so
+ odm/lib/libc2filterplugin.so
+ odm/lib/libcalculator_htp.so
+ odm/lib/libcalculator.so
+ odm/lib/libchrome.so
+-odm/lib/libcodec2_ffmpegdec_audio.so
+-odm/lib/libcodec2_ffmpegdec_video.so
+ odm/lib/libcodec2_hidl@1.0.so
+ odm/lib/libcodec2_hidl_plugin.so
+-odm/lib/libcodec2_oplus.so
+ odm/lib/libcodec2_soft_common.so
+ odm/lib/libcommcenterfw.so
+ odm/lib/libcommcenterutils.so
+@@ -5986,10 +5921,10 @@ odm/lib/libc++_shared.so
+ odm/lib/libcustomer_halalgovisual.so
+ odm/lib/libcvface_api.so
+ odm/lib/libdapparamstorage_sp.so
+-odm/lib/libdav1d.so.4
+ odm/lib/libdeccfg_sp.so
+ odm/lib/libDecoderProcessor.so
+ odm/lib/libDeVIS.so
++odm/lib/libdisplaycolorfeature.so
+ odm/lib/libdlbdsservice_sp.so
+ odm/lib/libdlbpreg_sp.so
+ odm/lib/libdmtpclient.so
+@@ -6004,7 +5939,6 @@ odm/lib/libexif-jpeg-aps.so
+ odm/lib/libextensionlayer.so
+ odm/lib/libFaceBeautyCap.so
+ odm/lib/libFaceBeautyPre.so
+-odm/lib/libffmpeg_omx.so
+ odm/lib/libfido2_factory.so
+ odm/lib/libfido_factory.so
+ odm/lib/libFilterWrapper.so
+@@ -6014,7 +5948,6 @@ odm/lib/libifaa_factory.so
+ odm/lib/libimgClarityEvaluate.so
+ odm/lib/lib_lvacfs.so
+ odm/lib/liblvacfs_wrapper.so
+-odm/lib/libmedia_opluscodecserviceregistrant.so
+ odm/lib/libmindroid-app.so
+ odm/lib/libmindroid-framework.so
+ odm/lib/libmpbase.so
+@@ -6039,12 +5972,15 @@ odm/lib/libpnscr2.so
+ odm/lib/libPolarrRender.so
+ odm/lib/libPreviewDecisionOld.so
+ odm/lib/libpwiriscalibrate.so
++odm/lib/libpwirisfeaturehal.so
+ odm/lib/libpwirisfeature.so
+ odm/lib/libpwirishalwrapper.so
+ odm/lib/libpwirisIoctlWrapper.so
+ odm/lib/libpwirisPCS.so
+ odm/lib/libpwirispq.so
++odm/lib/libpwirisservicei7p.so
+ odm/lib/libpwirisservicei7.so
++odm/lib/libpwirisservicesi.so
+ odm/lib/libpwirissoft.so
+ odm/lib/libpwsoftirisPCS.so
+ odm/lib/libQnnHtpPrepare.so
+@@ -6078,8 +6014,6 @@ odm/lib/libstdc++.so
+ odm/lib/libstface_fd_api.so
+ odm/lib/libsubsys-utils.so
+ odm/lib/libSuperTextWrapper.so
+-odm/lib/libswresample.so
+-odm/lib/libswscale.so
+ odm/lib/libtfa98xx.so
+ odm/lib/libthirdcapability.so
+ odm/lib/libuahcore.so
+@@ -6125,10 +6059,10 @@ odm/lib/rfsa/adsp/nlc_bgth.so
+ odm/lib/rfsa/adsp/nlc.so
+ odm/lib/se_nq_extn_client.so
+ odm/lib/soundfx/libdlbvol_sp.so
++odm/lib/soundfx/libOplusSpatializer.so
+ odm/lib/soundfx/liboplusupmixeffect.so
+ odm/lib/soundfx/libswdap_sp.so
+ odm/lib/soundfx/libswgamedap_sp.so
+-odm/lib/soundfx/libswspatializer.so
+ odm/lib/vendor.dolby.dvs@1.0.so
+ odm/lib/vendor.dolby_sp.hardware.dmssp@2.0-impl.so
+ odm/lib/vendor.dolby_sp.hardware.dmssp@2.0.so
+@@ -6148,8 +6082,9 @@ odm/lib/vendor.oplus.hardware.communicationcenter-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.cryptoeng@1.0.so
+ odm/lib/vendor.oplus.hardware.cryptoeng-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.cwb@1.0.so
+-odm/lib/vendor.oplus.hardware.display.MixLut3D-V1-ndk.so
++odm/lib/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so
++odm/lib/vendor.oplus.hardware.eid-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.engcamera@1.0.so
+ odm/lib/vendor.oplus.hardware.engineer-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.esim-V1-ndk.so
+@@ -6174,6 +6109,7 @@ odm/lib/vendor.oplus.hardware.osense.client-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.performance-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.power.powermonitor-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.radio@1.0.so
++odm/lib/vendor.oplus.hardware.riskdetect-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.rpmh-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.sendextcamcmd-V1-ndk.so
+ odm/lib/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
+@@ -6201,10 +6137,8 @@ odm/lib/vendor.pixelworks.hardware.feature@1.0.so
+ odm/lib/vendor.pixelworks.hardware.feature@1.1.so
+ odm/lib/vendor.qti.esepowermanager@1.0.so
+ odm/lib/vendor.qti.esepowermanager@1.1.so
+-odm/overlay/android_framework_res_overlay.display.product.22861.apk
+-odm/overlay/CarrierConfigOverlay.22861.apk
+-odm/overlay/framework_res_overlay.network.22861.apk
+-odm/overlay/oplus_framework_res_overlay.display.product.22861.apk
++odm/overlay/CarrierConfigOverlay.23861.apk
++odm/overlay/framework_res_overlay.network.23861.apk
+ odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
+ odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+ odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
+@@ -6218,6 +6152,16 @@ odm/vendor/firmware/alipay.b06
+ odm/vendor/firmware/alipay.b07
+ odm/vendor/firmware/alipay.b08
+ odm/vendor/firmware/alipay.mdt
++odm/vendor/firmware/antdtx.b00
++odm/vendor/firmware/antdtx.b01
++odm/vendor/firmware/antdtx.b02
++odm/vendor/firmware/antdtx.b03
++odm/vendor/firmware/antdtx.b04
++odm/vendor/firmware/antdtx.b05
++odm/vendor/firmware/antdtx.b06
++odm/vendor/firmware/antdtx.b07
++odm/vendor/firmware/antdtx.b08
++odm/vendor/firmware/antdtx.mdt
+ odm/vendor/firmware/cryptoeng.b00
+ odm/vendor/firmware/cryptoeng.b01
+ odm/vendor/firmware/cryptoeng.b02
+@@ -6523,21 +6467,21 @@ recovery.img
+ system_dlkm/etc/build.prop
+ system_dlkm/etc/fs_config_dirs
+ system_dlkm/etc/fs_config_files
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/kernel/drivers/block/zram/zram.ko
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/kernel/mm/zsmalloc.ko
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.alias
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.alias.bin
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.builtin
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.builtin.alias.bin
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.builtin.bin
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.dep
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.dep.bin
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.devname
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.load
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.order
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.softdep
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.symbols
+-system_dlkm/lib/modules/5.15.94-android13-8-o-00718-gdd3c2549102f/modules.symbols.bin
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/kernel/drivers/block/zram/zram.ko
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/kernel/mm/zsmalloc.ko
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.alias
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.alias.bin
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.builtin
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.builtin.alias.bin
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.builtin.bin
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.dep
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.dep.bin
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.devname
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.load
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.order
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.softdep
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.symbols
++system_dlkm/lib/modules/5.15.94-android13-8-o-00722-ge568e3a79803/modules.symbols.bin
+ system_ext/apex/com.android.vndk.v30.apex
+ system_ext/apex/com.android.vndk.v31.apex
+ system_ext/apex/com.android.vndk.v32.apex
+@@ -7751,6 +7695,7 @@ system_ext/etc/sys_charger_config.xml
+ system_ext/etc/sysconfig/google_smart_space.xml
+ system_ext/etc/sysconfig/hidden-api-whitelist-ext.xml
+ system_ext/etc/sysconfig/oneplus-hidden-api-whitelist-ext.xml
++system_ext/etc/sysconfig/preinstalled-packages-platform-oplus.xml
+ system_ext/etc/sysconfig/qti-initial-package-stopped-states.xml
+ system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
+ system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+@@ -10733,6 +10678,7 @@ system/system/framework/oat/arm64/apex@com.android.adservices@javalib@service-sd
+ system/system/framework/oat/arm64/apex@com.android.adservices@javalib@service-sdksandbox.jar@classes.vdex
+ system/system/framework/oat/arm64/apex@com.android.appsearch@javalib@service-appsearch.jar@classes.odex
+ system/system/framework/oat/arm64/apex@com.android.appsearch@javalib@service-appsearch.jar@classes.vdex
++system/system/framework/oat/arm64/apex@com.android.art@javalib@service-art.jar@classes.art
+ system/system/framework/oat/arm64/apex@com.android.art@javalib@service-art.jar@classes.odex
+ system/system/framework/oat/arm64/apex@com.android.art@javalib@service-art.jar@classes.vdex
+ system/system/framework/oat/arm64/apex@com.android.configinfrastructure@javalib@service-configinfrastructure.jar@classes.odex
+@@ -14025,6 +13971,18 @@ vendor/etc/wifi/wpa_supplicant.conf
+ vendor/etc/wifi/wpa_supplicant_overlay.conf
+ vendor/etc/xtra_root_cert.pem
+ vendor/etc/xtwifi.conf
++vendor/firmware/a615_zap.b00
++vendor/firmware/a615_zap.b01
++vendor/firmware/a615_zap.b02
++vendor/firmware/a615_zap.elf
++vendor/firmware/a615_zap.mdt
++vendor/firmware/a630_sqe.fw
++vendor/firmware/a702_sqe.fw
++vendor/firmware/a702_zap.b00
++vendor/firmware/a702_zap.b01
++vendor/firmware/a702_zap.b02
++vendor/firmware/a702_zap.elf
++vendor/firmware/a702_zap.mdt
+ vendor/firmware/a740_sqe.fw
+ vendor/firmware/a740_zap.b00
+ vendor/firmware/a740_zap.b01
+@@ -15090,7 +15048,6 @@ vendor/lib64/vendor.oplus.hardware.wifi.supplicant-V4-ndk.so
+ vendor/lib64/vendor.pixelworks.hardware.display@1.0.so
+ vendor/lib64/vendor.pixelworks.hardware.display@1.1.so
+ vendor/lib64/vendor.pixelworks.hardware.display@1.2.so
+-vendor/lib64/vendor.pixelworks.hardware.display-V1-ndk.so
+ vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
+ vendor/lib64/vendor.pixelworks.hardware.feature@1.1.so
+ vendor/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so
+@@ -16305,7 +16262,6 @@ vendor/lib/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
+ vendor/lib/vendor.pixelworks.hardware.display@1.0.so
+ vendor/lib/vendor.pixelworks.hardware.display@1.1.so
+ vendor/lib/vendor.pixelworks.hardware.display@1.2.so
+-vendor/lib/vendor.pixelworks.hardware.display-V1-ndk.so
+ vendor/lib/vendor.pixelworks.hardware.feature@1.0.so
+ vendor/lib/vendor.pixelworks.hardware.feature@1.1.so
+ vendor/lib/vendor.pixelworks.hardware.feature-V1-ndk.so
